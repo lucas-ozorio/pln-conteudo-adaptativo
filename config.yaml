@@ -1,0 +1,54 @@
+# Configuração dos experimentos. Edite os nomes de modelo conforme o provedor escolhido.
+# Modelos verificados no OpenRouter em 2026-11-16 (gemini-2.0-flash-001 foi descontinuado).
+seed: 42
+
+# Cada provedor fala o protocolo "OpenAI-compatible" (OpenAI, OpenRouter, Maritaca/Sabiá,
+# Gemini compat., Ollama local em http://localhost:11434/v1, vLLM...). kind=mock roda sem chave.
+providers:
+  main:
+    kind: openai_compat
+    base_url: https://openrouter.ai/api/v1      # uma chave só dá acesso a várias famílias de modelo
+    api_key_env: OPENROUTER_API_KEY
+    json_mode: true
+  mock:
+    kind: mock
+
+# Regra de ouro: o JUIZ deve ser de FAMÍLIA DIFERENTE do gerador (controle de autofavorecimento,
+# Zheng et al. 2023). Gerador e diagnosticador podem ser o mesmo modelo.
+models:
+  diagnoser:   {provider: main, name: openai/gpt-4o-mini,          temperature: 0.0, max_tokens: 1200}
+  generator:   {provider: main, name: openai/gpt-4o-mini,          temperature: 0.4, max_tokens: 1500}
+  verifier:    {provider: main, name: openai/gpt-4o-mini,          temperature: 0.0, max_tokens: 1500}
+  judge:       {provider: main, name: google/gemini-2.5-flash, temperature: 0.0, max_tokens: 1200}
+  grader:      {provider: main, name: google/gemini-2.5-flash, temperature: 0.0, max_tokens: 400}
+  student_sim: {provider: main, name: meta-llama/llama-3.1-8b-instruct, temperature: 0.7, max_tokens: 400}
+
+sample:
+  max_words: 150            # descarta respostas-outlier
+  n_diag_per_q_grade: 10    # E0: 15 questões x 4 notas x 10 = ate 600 respostas
+  n_pilot_per_q_grade: 4    # E1/E3: 15 questões x notas {0,1,2} x 4 = 180 itens (subconjunto do E0)
+  pilot_grades: [0, 1, 2]   # nota 3 (quase certa) nao precisa de remediacao
+
+pipeline:
+  support_words: [120, 180]           # mesmo orcamento de palavras para TODAS as condicoes (controle de verbosidade)
+  bloom_levels: [entender, aplicar, analisar]
+  conditions: [S0_gabarito, S_estatico, A0_direto, A1_pipeline, A2_pipeline_verif]
+
+judge:
+  pairs:                              # comparacoes par-a-par (cada uma nas duas ordens)
+    - [A1_pipeline, S_estatico]
+    - [A1_pipeline, A0_direto]
+    - [A2_pipeline_verif, A1_pipeline]
+    - [A1_pipeline, S0_gabarito]
+  n_reps: 1                           # >1 repete o juiz (temperatura 0 => pouca variacao)
+
+student_sim:
+  conditions: [N_sem_material, S0_gabarito, S_estatico, A0_direto, A1_pipeline, A2_pipeline_verif]
+
+runtime:
+  workers: 6
+  max_retries: 5
+
+human_eval:
+  n_items: 40                         # itens (respostas de alunos) a avaliar por humano
+  conditions: [S_estatico, A1_pipeline, A2_pipeline_verif]

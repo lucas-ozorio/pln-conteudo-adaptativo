@@ -1,0 +1,7 @@
+openai>=1.40
+pandas
+numpy
+scipy
+scikit-learn
+pyyaml
+tqdm

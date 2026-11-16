@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+# dataset (licença CC BY-NC-SA 4.0; respostas de menores): baixar com scripts/download_data.py
+data/raw/
+data/processed/
+# testes com LLM sintético e logs
+outputs_mock/
+results_mock/
+logs_*.txt
+# planilhas de avaliação humana contêm respostas de alunos e a chave das condições
+human_eval/*.csv
+# chaves nunca vão para o repositório
+.env
+*.key
