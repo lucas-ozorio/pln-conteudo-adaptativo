@@ -1,6 +1,6 @@
 # pln-conteudo-adaptativo
 
-**Resultados do piloto: [RESULTADOS.md](RESULTADOS.md)** (com o que os dados sustentam e o que não).
+**Resultados do piloto: [RESULTADOS.md](RESULTADOS.md)** (com o que os dados sustentam e o que não). **Rascunho do artigo (formato ACL): [paper/main.pdf](paper/main.pdf)**; antes de submeter, leia [paper/VERIFICAR.md](paper/VERIFICAR.md).
 
 Código dos experimentos iniciais do paper *Geração de Conteúdo Adaptativo com LLMs* (UFG, PLN). Desenho e justificativas: **[EXPERIMENTOS.md](EXPERIMENTOS.md)**.
 
@@ -34,7 +34,8 @@ src/pln/prompts.py    todos os prompts (PT-BR)
 src/pln/pipeline.py   diagnóstico -> apoio -> questões; A0/A1/A2/S/S0
 src/pln/judge.py      LLM-as-a-Judge (absoluto e par-a-par)
 src/pln/llm.py        cliente OpenAI-compatível, cache, retentativas, mock
-scripts/              00..07 + run_all + estimate
+scripts/              00..09 + run_all + estimate (08: bootstrap por questão; 09: tabelas/figuras do artigo)
+paper/                main.tex (ACL, [review]), references.bib, tables/ e figures/ gerados dos CSVs, main.pdf
 data/raw/             PT-ASAG 2018 v2.0, baixado por scripts/download_data.py (CC BY-NC-SA 4.0: só uso acadêmico, citar Galhardi et al., 2018)
 outputs/ results/     saídas reais do piloto (diagnóstico, materiais, julgamentos, aluno simulado) e tabelas
 ```
@@ -50,3 +51,7 @@ outputs/ results/     saídas reais do piloto (diagnóstico, materiais, julgamen
 
 - Código: use livremente com citação (defina a licença final com o grupo antes de tornar o repositório público).
 - `outputs/` e `cache/` contêm trechos de respostas de alunos do PT-ASAG citados pelos modelos (campos de evidência do diagnóstico). Esses trechos seguem a licença do dataset original, **CC BY-NC-SA 4.0** (uso não comercial, com atribuição a Galhardi et al., 2018, e mesma licença).
+
+## Compilar o artigo
+
+Envie `paper/` ao Overleaf ou compile com `tectonic -X compile main.tex`. Rode `python scripts/08_cluster_bootstrap.py && python scripts/09_make_paper_assets.py` para regenerar tabelas e figuras depois de novos resultados.
