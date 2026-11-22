@@ -1,0 +1,25 @@
+escopo,dimensao,estatistica,est,ic_lo,ic_hi
+A0_direto,coerencia,"spearman(palavras, nota)",-0.03967043571167159,-0.17043811423995173,0.15237155773017472
+A0_direto,correcao_conceitual,"spearman(palavras, nota)",-0.08201728697055358,-0.18159858970808251,0.007900668671371663
+A0_direto,fidelidade_gabarito,"spearman(palavras, nota)",-0.1313778231181642,-0.22425494313443922,0.005274348384009896
+A0_direto,foco_na_lacuna,"spearman(palavras, nota)",-0.028823273442865206,-0.20808787144430904,0.17818859683176955
+A0_direto,utilidade_pedagogica,"spearman(palavras, nota)",0.003539384239295016,-0.17212407810018715,0.21127792013569152
+A0_direto,adequacao_nivel,"spearman(palavras, nota)",-0.016405511231585127,-0.1703080123755323,0.21010474930016346
+A1_pipeline,coerencia,"spearman(palavras, nota)",-0.051502498058655276,-0.1508316853215473,0.049516028447598004
+A1_pipeline,correcao_conceitual,"spearman(palavras, nota)",0.11557266680041257,-0.04459650365196945,0.2271156302151551
+A1_pipeline,fidelidade_gabarito,"spearman(palavras, nota)",-0.05006059575245018,-0.20281489938261196,0.13431864125896498
+A1_pipeline,foco_na_lacuna,"spearman(palavras, nota)",-0.08046325286311089,-0.20680153925821906,0.05288102902939715
+A1_pipeline,utilidade_pedagogica,"spearman(palavras, nota)",-0.078346477361027,-0.19929666257895515,0.04778149004381552
+A1_pipeline,adequacao_nivel,"spearman(palavras, nota)",-0.05035749478845264,-0.1659054480149954,0.08959374402148379
+A2_pipeline_verif,coerencia,"spearman(palavras, nota)",0.11031820502044881,-0.03659392476868404,0.2393900300652352
+A2_pipeline_verif,correcao_conceitual,"spearman(palavras, nota)",0.028405176600529526,-0.09023268216726717,0.1477213890144163
+A2_pipeline_verif,fidelidade_gabarito,"spearman(palavras, nota)",0.04745882991817339,-0.10771371569753649,0.2136605917683381
+A2_pipeline_verif,foco_na_lacuna,"spearman(palavras, nota)",0.0913589121144512,-0.057717020144710904,0.2330107581567552
+A2_pipeline_verif,utilidade_pedagogica,"spearman(palavras, nota)",0.12488186280562419,-0.03993053226083733,0.2650257857069412
+A2_pipeline_verif,adequacao_nivel,"spearman(palavras, nota)",0.19662083121849877,0.05076377839729857,0.30867588945670116
+S+A0+A1+A2 (controla condição),coerencia,coef log(palavras),-0.06541143644593968,-0.5038646079199258,0.3269596939314822
+S+A0+A1+A2 (controla condição),correcao_conceitual,coef log(palavras),-0.22786525235686336,-0.47516853683738114,0.04019465605081894
+S+A0+A1+A2 (controla condição),fidelidade_gabarito,coef log(palavras),-0.2877520022921038,-0.7019993869016897,0.3381010813999574
+S+A0+A1+A2 (controla condição),foco_na_lacuna,coef log(palavras),-0.22765796718915188,-0.8536389940158736,0.5054628683874771
+S+A0+A1+A2 (controla condição),utilidade_pedagogica,coef log(palavras),0.07728674255801027,-0.553774590127378,0.8736010789134981
+S+A0+A1+A2 (controla condição),adequacao_nivel,coef log(palavras),0.15188777425236466,-0.285235992601115,0.47947491575712436

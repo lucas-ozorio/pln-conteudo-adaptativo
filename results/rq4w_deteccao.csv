@@ -1,0 +1,13 @@
+medida,n
+textos A1w com erro (juiz),23
+afirmações incorretas no total: A1w,39
+afirmações incorretas no total: A2w,19
+afirmações incorretas no total: A2w_inc,36
+dos textos com erro: verificador marcou alguma frase,21
+dos textos com erro: verificador marcou alguma frase como incorreta,12
+dos textos com erro: A2w ficou sem erro,15
+dos textos com erro: A2w_inc ficou sem erro,6
+"erro novo: A1w sem erro, A2w com erro",3
+"erro novo: A1w sem erro, A2w_inc com erro",5
+textos em que o verificador marcou alguma frase como incorreta,33
+desses: o juiz também viu erro no A1w,12
