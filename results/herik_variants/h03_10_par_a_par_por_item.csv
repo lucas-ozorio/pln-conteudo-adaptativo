@@ -1,0 +1,361 @@
+par,item_id,question_id,grade,pred,resultado,Δpalavras,Δabs_texto,Δfoco,Δutilidade,Δq_relevancia
+A1_pipeline vs A0_direto,q36_08c374a6,36,0,0,inconsistente,60.0,1.0,2.0,2.0,-0.3333333333333339
+A1_pipeline vs A0_direto,q36_13b1844f,36,1,1,inconsistente,33.0,0.666666666666667,1.0,1.0,0.0
+A1_pipeline vs A0_direto,q36_1a63a137,36,0,1,inconsistente,37.0,-0.833333333333333,-2.0,-1.0,-0.3333333333333339
+A1_pipeline vs A0_direto,q36_210bb26d,36,1,1,inconsistente,58.0,0.33333333333333304,1.0,1.0,1.0000000000000004
+A1_pipeline vs A0_direto,q36_3b0258ff,36,1,0,A1 robusta,35.0,0.16666666666666696,0.0,0.0,1.3333333333333335
+A1_pipeline vs A0_direto,q36_55ffd692,36,2,1,inconsistente,35.0,0.0,0.0,0.0,0.3333333333333335
+A1_pipeline vs A0_direto,q36_5b74a6e0,36,0,0,inconsistente,26.0,0.16666666666666696,0.0,0.0,0.666666666666667
+A1_pipeline vs A0_direto,q36_7ef6c4ec,36,0,0,inconsistente,28.0,0.0,0.0,0.0,0.3333333333333339
+A1_pipeline vs A0_direto,q36_91948724,36,2,0,inconsistente,25.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q36_a25dbee1,36,1,1,inconsistente,34.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q36_c7450e4b,36,2,1,A0 robusta,19.0,0.9999999999999996,3.0,2.0,0.33333333333333304
+A1_pipeline vs A0_direto,q36_e301a741,36,2,1,inconsistente,65.0,0.33333333333333304,1.0,1.0,0.33333333333333304
+A1_pipeline vs A0_direto,q37_30adcd4e,37,0,0,A1 robusta,64.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q37_43ffb40b,37,0,1,inconsistente,22.0,-0.16666666666666696,0.0,0.0,-1.3333333333333335
+A1_pipeline vs A0_direto,q37_4f1cecfe,37,2,1,A0 robusta,-6.0,0.0,0.0,0.0,-0.666666666666667
+A1_pipeline vs A0_direto,q37_64e5d3f8,37,1,1,inconsistente,48.0,-0.16666666666666696,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q37_6cf741c4,37,0,1,A1 robusta,12.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q37_6f4ee0da,37,1,2,A1 robusta,29.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q37_719c4775,37,2,2,A1 robusta,13.0,0.0,0.0,0.0,0.3333333333333335
+A1_pipeline vs A0_direto,q37_734c77a9,37,1,1,inconsistente,30.0,1.3333333333333335,2.0,2.0,0.0
+A1_pipeline vs A0_direto,q37_af43b8a7,37,0,1,inconsistente,30.0,1.4999999999999996,3.0,3.0,0.0
+A1_pipeline vs A0_direto,q37_b161465a,37,2,1,inconsistente,25.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q37_b5ddc9f6,37,2,2,inconsistente,32.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q37_c08646a6,37,1,2,inconsistente,43.0,-0.16666666666666696,-1.0,0.0,-0.666666666666667
+A1_pipeline vs A0_direto,q38_01c36718,38,2,1,A1 robusta,93.0,0.0,0.0,0.0,-0.33333333333333304
+A1_pipeline vs A0_direto,q38_0c8288fb,38,1,1,inconsistente,35.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q38_2bfefda8,38,0,0,inconsistente,36.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q38_3af41c85,38,1,2,inconsistente,52.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q38_5555bb21,38,1,1,inconsistente,52.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q38_6aa1725e,38,0,1,inconsistente,50.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs A0_direto,q38_721d27b7,38,2,2,inconsistente,56.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q38_8c31ed73,38,2,2,A0 robusta,61.0,0.0,0.0,0.0,0.3333333333333335
+A1_pipeline vs A0_direto,q38_d297009f,38,0,0,inconsistente,26.0,0.0,0.0,0.0,0.3333333333333335
+A1_pipeline vs A0_direto,q38_dfee2a22,38,0,0,inconsistente,40.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q38_f4087b6f,38,2,1,inconsistente,47.0,0.0,0.0,0.0,-0.3333333333333335
+A1_pipeline vs A0_direto,q38_fff77d9d,38,1,2,inconsistente,40.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q39_055ac480,39,0,0,inconsistente,42.0,-0.5,-1.0,-2.0,0.0
+A1_pipeline vs A0_direto,q39_08b3ca2d,39,2,1,inconsistente,34.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q39_524585dd,39,2,1,A1 robusta,39.0,0.16666666666666696,0.0,0.0,0.666666666666667
+A1_pipeline vs A0_direto,q39_5478e8e0,39,0,0,inconsistente,34.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q39_5e210645,39,0,0,inconsistente,38.0,0.0,0.0,0.0,-0.33333333333333304
+A1_pipeline vs A0_direto,q39_75db2b70,39,1,1,inconsistente,42.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q39_769a5b1f,39,1,1,inconsistente,37.0,-1.5,-3.0,-2.0,-0.33333333333333304
+A1_pipeline vs A0_direto,q39_79e2fa90,39,2,2,inconsistente,35.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q39_9c8d3963,39,1,2,inconsistente,30.0,0.0,0.0,0.0,-0.33333333333333304
+A1_pipeline vs A0_direto,q39_aa998897,39,0,0,A1 robusta,39.0,1.5,3.0,2.0,0.0
+A1_pipeline vs A0_direto,q39_c80043bf,39,2,1,A1 robusta,41.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs A0_direto,q39_e8d5ed15,39,1,0,inconsistente,41.0,-0.5,-1.0,-1.0,0.6666666666666665
+A1_pipeline vs A0_direto,q40_0c7ecec6,40,1,1,A1 robusta,49.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs A0_direto,q40_19368b9f,40,0,0,A0 robusta,52.0,-0.833333333333333,-3.0,-2.0,0.33333333333333304
+A1_pipeline vs A0_direto,q40_43b59840,40,0,1,inconsistente,33.0,0.8333333333333335,0.0,1.0,1.0
+A1_pipeline vs A0_direto,q40_710ead7e,40,2,2,inconsistente,35.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q40_825600d0,40,1,2,inconsistente,55.0,0.0,0.0,0.0,-0.33333333333333304
+A1_pipeline vs A0_direto,q40_8b4eeeeb,40,1,1,A1 robusta,34.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q40_96e5bbbc,40,2,1,inconsistente,48.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs A0_direto,q40_a43c5160,40,1,1,inconsistente,39.0,-0.16666666666666696,-1.0,0.0,0.666666666666667
+A1_pipeline vs A0_direto,q40_aec2eafe,40,0,0,inconsistente,39.0,-0.9999999999999996,-3.0,-2.0,0.666666666666667
+A1_pipeline vs A0_direto,q40_ba1815f8,40,2,2,inconsistente,88.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q40_be604254,40,0,0,A1 robusta,37.0,1.1666666666666665,3.0,2.0,0.0
+A1_pipeline vs A0_direto,q40_f1431191,40,2,1,inconsistente,45.0,1.6666666666666665,3.0,3.0,-0.3333333333333339
+A1_pipeline vs A0_direto,q41_0cc175b9,41,0,0,inconsistente,21.0,-1.0,-4.0,-2.0,0.0
+A1_pipeline vs A0_direto,q41_20934a12,41,1,1,inconsistente,51.0,-0.833333333333333,-2.0,-2.0,0.3333333333333335
+A1_pipeline vs A0_direto,q41_2d0dd168,41,2,1,inconsistente,46.0,-0.666666666666667,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q41_3f6b294b,41,1,1,inconsistente,36.0,0.9999999999999996,2.0,2.0,0.33333333333333304
+A1_pipeline vs A0_direto,q41_7a66a72a,41,0,0,inconsistente,32.0,-1.0,-3.0,-2.0,0.666666666666667
+A1_pipeline vs A0_direto,q41_810c0c93,41,1,2,A1 robusta,22.0,2.833333333333333,2.0,3.0,-0.6666666666666665
+A1_pipeline vs A0_direto,q41_818c5a0f,41,0,0,inconsistente,55.0,0.5,-1.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q41_9487cb38,41,0,1,inconsistente,90.0,0.16666666666666607,0.0,1.0,0.33333333333333304
+A1_pipeline vs A0_direto,q41_a0dbcb10,41,2,1,inconsistente,34.0,0.0,0.0,0.0,-0.3333333333333335
+A1_pipeline vs A0_direto,q41_a3c5a7ad,41,2,3,inconsistente,34.0,-0.3333333333333335,-1.0,-1.0,0.0
+A1_pipeline vs A0_direto,q41_d9c2ba81,41,2,0,A0 robusta,21.0,0.6666666666666665,0.0,1.0,0.666666666666667
+A1_pipeline vs A0_direto,q41_eebb4b78,41,1,1,inconsistente,19.0,0.0,0.0,0.0,0.3333333333333335
+A1_pipeline vs A0_direto,q42_01bc38b0,42,1,1,A0 robusta,21.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q42_29166fd6,42,1,1,A1 robusta,18.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q42_2ccebe10,42,0,2,A0 robusta,35.0,0.16666666666666696,0.0,1.0,0.0
+A1_pipeline vs A0_direto,q42_4ba7c097,42,0,1,A1 robusta,35.0,0.0,0.0,0.0,-0.3333333333333339
+A1_pipeline vs A0_direto,q42_5dc3a7db,42,1,1,A0 robusta,24.0,-0.16666666666666696,0.0,0.0,-0.666666666666667
+A1_pipeline vs A0_direto,q42_61bcef6c,42,0,1,A1 robusta,29.0,0.0,0.0,0.0,-0.3333333333333339
+A1_pipeline vs A0_direto,q42_6767631e,42,0,1,A0 robusta,25.0,-0.666666666666667,-1.0,-1.0,0.33333333333333304
+A1_pipeline vs A0_direto,q42_69e544c1,42,1,0,A1 robusta,40.0,0.666666666666667,1.0,2.0,0.33333333333333304
+A1_pipeline vs A0_direto,q42_85a86e6d,42,2,2,A0 robusta,46.0,-0.33333333333333304,-1.0,0.0,-1.0000000000000004
+A1_pipeline vs A0_direto,q42_9260e885,42,2,2,A0 robusta,14.0,-0.666666666666667,0.0,-1.0,-1.333333333333334
+A1_pipeline vs A0_direto,q42_c8ec849e,42,2,1,A1 robusta,47.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs A0_direto,q42_cfd97dfc,42,2,2,A0 robusta,47.0,0.0,0.0,0.0,-1.0
+A1_pipeline vs A0_direto,q43_14cd89ab,43,1,1,inconsistente,41.0,0.0,0.0,0.0,1.0
+A1_pipeline vs A0_direto,q43_262a0deb,43,2,1,inconsistente,29.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs A0_direto,q43_775bbc45,43,0,1,inconsistente,29.0,0.0,0.0,0.0,-0.3333333333333339
+A1_pipeline vs A0_direto,q43_7fc56270,43,0,0,inconsistente,33.0,0.0,0.0,0.0,1.0
+A1_pipeline vs A0_direto,q43_88cf952a,43,0,0,inconsistente,50.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q43_91597e47,43,2,1,inconsistente,37.0,-1.1666666666666665,-3.0,-2.0,0.666666666666667
+A1_pipeline vs A0_direto,q43_a382ef16,43,1,1,inconsistente,38.0,0.666666666666667,1.0,1.0,0.666666666666667
+A1_pipeline vs A0_direto,q43_af18fe7e,43,2,2,A0 robusta,28.0,0.5,0.0,1.0,-0.666666666666667
+A1_pipeline vs A0_direto,q43_c2a595c1,43,1,1,inconsistente,36.0,0.0,0.0,0.0,1.3333333333333335
+A1_pipeline vs A0_direto,q43_da5a83a4,43,2,1,inconsistente,45.0,0.0,0.0,0.0,1.3333333333333335
+A1_pipeline vs A0_direto,q43_da8076df,43,1,2,inconsistente,41.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q43_e7d14b82,43,0,0,inconsistente,21.0,2.0,4.0,4.0,-0.33333333333333304
+A1_pipeline vs A0_direto,q44_453274e1,44,1,0,inconsistente,33.0,0.0,0.0,0.0,-0.33333333333333304
+A1_pipeline vs A0_direto,q44_523c8e7c,44,0,1,A1 robusta,65.0,0.16666666666666696,0.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q44_8b7fd725,44,2,2,inconsistente,35.0,1.1666666666666665,2.0,2.0,-0.3333333333333335
+A1_pipeline vs A0_direto,q44_8d300d24,44,1,0,inconsistente,40.0,0.0,0.0,0.0,1.0
+A1_pipeline vs A0_direto,q44_9f3033c9,44,2,1,inconsistente,25.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q44_a37f184b,44,0,1,inconsistente,37.0,0.0,0.0,0.0,-0.33333333333333304
+A1_pipeline vs A0_direto,q44_ba89325e,44,1,0,inconsistente,13.0,0.0,0.0,0.0,0.3333333333333339
+A1_pipeline vs A0_direto,q44_d15c8456,44,0,1,inconsistente,39.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q44_d922120c,44,0,0,inconsistente,48.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs A0_direto,q44_dfe6465c,44,1,1,A1 robusta,20.0,0.33333333333333304,1.0,1.0,-0.666666666666667
+A1_pipeline vs A0_direto,q44_ea65778d,44,2,1,inconsistente,23.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q44_ef702dfe,44,2,1,inconsistente,49.0,0.16666666666666696,1.0,0.0,1.0
+A1_pipeline vs A0_direto,q45_1c34f478,45,2,1,inconsistente,69.0,1.5,4.0,3.0,1.0000000000000004
+A1_pipeline vs A0_direto,q45_1e8f77d1,45,0,0,inconsistente,23.0,0.0,0.0,0.0,-0.666666666666667
+A1_pipeline vs A0_direto,q45_2a7cf00f,45,2,2,A0 robusta,54.0,0.0,0.0,0.0,-1.3333333333333335
+A1_pipeline vs A0_direto,q45_2c7bc4b1,45,2,2,inconsistente,36.0,1.8333333333333335,4.0,3.0,-0.6666666666666665
+A1_pipeline vs A0_direto,q45_3ab35e93,45,2,1,inconsistente,32.0,0.0,0.0,0.0,-0.33333333333333304
+A1_pipeline vs A0_direto,q45_3fb962bc,45,0,0,inconsistente,10.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q45_4dbf601c,45,1,2,inconsistente,41.0,1.9999999999999996,3.0,3.0,0.666666666666667
+A1_pipeline vs A0_direto,q45_8f82ceed,45,0,0,inconsistente,20.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q45_a8082db9,45,1,1,inconsistente,28.0,0.33333333333333304,1.0,1.0,0.0
+A1_pipeline vs A0_direto,q45_b7d7b36f,45,0,0,inconsistente,20.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q45_ccdb7c53,45,1,1,inconsistente,39.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q45_cf5e4b69,45,1,1,inconsistente,24.0,0.0,0.0,0.0,-0.666666666666667
+A1_pipeline vs A0_direto,q46_167a859d,46,1,2,inconsistente,29.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q46_484cf75f,46,2,1,inconsistente,27.0,0.0,0.0,0.0,-0.33333333333333304
+A1_pipeline vs A0_direto,q46_4ad829f8,46,0,1,inconsistente,24.0,0.8333333333333335,0.0,1.0,1.0
+A1_pipeline vs A0_direto,q46_5058f1af,46,0,0,inconsistente,19.0,-0.16666666666666696,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q46_5cc8d721,46,0,0,inconsistente,38.0,0.0,0.0,0.0,-0.33333333333333304
+A1_pipeline vs A0_direto,q46_6de0a418,46,2,2,inconsistente,41.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q46_717e0b39,46,1,1,inconsistente,35.0,0.0,0.0,0.0,-0.6666666666666665
+A1_pipeline vs A0_direto,q46_a57c9fbc,46,1,1,inconsistente,80.0,-0.16666666666666696,0.0,0.0,0.3333333333333339
+A1_pipeline vs A0_direto,q46_a627cd2a,46,2,2,inconsistente,63.0,0.0,0.0,0.0,-0.3333333333333339
+A1_pipeline vs A0_direto,q46_a9703b49,46,1,2,A1 robusta,50.0,1.0,0.0,1.0,0.0
+A1_pipeline vs A0_direto,q46_d30ff6f9,46,0,0,inconsistente,23.0,0.5,1.0,1.0,0.33333333333333304
+A1_pipeline vs A0_direto,q46_ff96613c,46,2,2,inconsistente,25.0,-0.16666666666666607,-1.0,0.0,0.6666666666666665
+A1_pipeline vs A0_direto,q47_1bc0934c,47,1,0,inconsistente,32.0,0.0,0.0,0.0,-0.33333333333333304
+A1_pipeline vs A0_direto,q47_2635d791,47,1,1,inconsistente,38.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q47_5a854d24,47,2,1,inconsistente,48.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q47_6d0efb81,47,0,0,inconsistente,62.0,0.16666666666666696,0.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q47_6ee8b195,47,0,0,A1 robusta,61.0,0.0,0.0,0.0,1.3333333333333335
+A1_pipeline vs A0_direto,q47_74e82f61,47,2,1,A1 robusta,59.0,0.0,0.0,0.0,-0.666666666666667
+A1_pipeline vs A0_direto,q47_848ea44f,47,0,1,inconsistente,48.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q47_8611ab22,47,1,0,A1 robusta,56.0,0.0,0.0,0.0,0.3333333333333335
+A1_pipeline vs A0_direto,q47_c5db2836,47,1,0,A1 robusta,34.0,0.0,0.0,0.0,1.0
+A1_pipeline vs A0_direto,q47_d2ec08e9,47,0,0,A1 robusta,41.0,-0.16666666666666696,0.0,0.0,0.666666666666667
+A1_pipeline vs A0_direto,q47_dac2c3fe,47,2,1,inconsistente,39.0,0.0,0.0,0.0,1.0
+A1_pipeline vs A0_direto,q47_e409caec,47,2,1,A1 robusta,53.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q48_08a9cbd1,48,2,1,inconsistente,26.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q48_173a3321,48,0,0,inconsistente,29.0,0.0,0.0,0.0,1.3333333333333335
+A1_pipeline vs A0_direto,q48_26f5a7e6,48,1,1,inconsistente,47.0,0.0,0.0,0.0,-0.3333333333333335
+A1_pipeline vs A0_direto,q48_2e861bb2,48,1,1,inconsistente,40.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q48_581db633,48,0,1,inconsistente,50.0,0.0,0.0,0.0,-1.0
+A1_pipeline vs A0_direto,q48_76581651,48,1,1,inconsistente,58.0,-0.16666666666666696,0.0,0.0,-0.3333333333333335
+A1_pipeline vs A0_direto,q48_770940a2,48,0,1,inconsistente,40.0,-1.0,-3.0,-2.0,0.3333333333333335
+A1_pipeline vs A0_direto,q48_77fcaad2,48,2,1,inconsistente,43.0,0.0,-1.0,0.0,0.0
+A1_pipeline vs A0_direto,q48_79683c90,48,2,1,inconsistente,21.0,-3.166666666666667,-4.0,-4.0,1.0
+A1_pipeline vs A0_direto,q48_79b95661,48,2,2,inconsistente,49.0,1.5000000000000004,1.0,2.0,0.3333333333333335
+A1_pipeline vs A0_direto,q48_8b86fa69,48,0,1,inconsistente,19.0,0.0,0.0,0.0,-0.3333333333333335
+A1_pipeline vs A0_direto,q48_f015bd5f,48,1,1,inconsistente,34.0,0.0,0.0,0.0,1.0000000000000004
+A1_pipeline vs A0_direto,q49_3b41f8ae,49,0,0,inconsistente,32.0,0.0,0.0,0.0,-0.33333333333333304
+A1_pipeline vs A0_direto,q49_3f08c667,49,1,1,inconsistente,42.0,-0.16666666666666696,-1.0,0.0,-0.33333333333333304
+A1_pipeline vs A0_direto,q49_7618a1ad,49,0,1,A1 robusta,72.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q49_8bf2a16c,49,1,0,inconsistente,52.0,-0.33333333333333304,-1.0,-1.0,0.666666666666667
+A1_pipeline vs A0_direto,q49_a517a1c0,49,2,1,inconsistente,40.0,0.0,0.0,0.0,-0.6666666666666665
+A1_pipeline vs A0_direto,q49_b47d0ed8,49,1,1,inconsistente,35.0,0.0,0.0,0.0,1.0000000000000004
+A1_pipeline vs A0_direto,q49_bdeed107,49,0,1,A1 robusta,39.0,-0.33333333333333304,0.0,-1.0,0.3333333333333339
+A1_pipeline vs A0_direto,q49_def67946,49,0,1,A1 robusta,33.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q49_df07c26f,49,2,1,inconsistente,41.0,0.0,0.0,0.0,-0.33333333333333304
+A1_pipeline vs A0_direto,q49_e4b59a2e,49,2,1,inconsistente,51.0,0.0,0.0,0.0,-0.3333333333333339
+A1_pipeline vs A0_direto,q49_edde929c,49,2,2,inconsistente,48.0,-0.16666666666666696,-1.0,0.0,0.33333333333333304
+A1_pipeline vs A0_direto,q49_f691c99e,49,1,1,A1 robusta,44.0,0.0,0.0,0.0,-0.3333333333333339
+A1_pipeline vs A0_direto,q50_07d7c49a,50,0,0,inconsistente,34.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q50_0ba0bc48,50,1,1,inconsistente,29.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs A0_direto,q50_286d7b3a,50,2,1,inconsistente,25.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q50_2aca6c43,50,2,1,inconsistente,44.0,0.0,0.0,0.0,0.3333333333333339
+A1_pipeline vs A0_direto,q50_38de9622,50,1,1,inconsistente,38.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q50_857d2a49,50,2,2,inconsistente,25.0,-0.16666666666666696,-1.0,0.0,0.0
+A1_pipeline vs A0_direto,q50_b33eec8a,50,0,0,A1 robusta,47.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q50_bf8b4dc8,50,1,1,inconsistente,20.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q50_c4757b01,50,1,1,inconsistente,17.0,0.0,0.0,0.0,0.0
+A1_pipeline vs A0_direto,q50_c61beeb4,50,0,0,A1 robusta,35.0,0.0,0.0,0.0,-0.33333333333333304
+A1_pipeline vs A0_direto,q50_cbf90a99,50,2,1,A1 robusta,15.0,-1.6666666666666665,-3.0,-3.0,0.33333333333333304
+A1_pipeline vs A0_direto,q50_df7b07b0,50,0,1,inconsistente,24.0,0.16666666666666696,1.0,0.0,-0.3333333333333339
+A1_pipeline vs S_estatico,q36_08c374a6,36,0,0,inconsistente,0.0,1.3333333333333335,3.0,3.0,0.33333333333333304
+A1_pipeline vs S_estatico,q36_13b1844f,36,1,1,inconsistente,-7.0,0.833333333333333,2.0,1.0,1.0000000000000004
+A1_pipeline vs S_estatico,q36_1a63a137,36,0,1,inconsistente,-6.0,-0.33333333333333304,0.0,0.0,-0.3333333333333339
+A1_pipeline vs S_estatico,q36_210bb26d,36,1,1,inconsistente,5.0,0.16666666666666696,1.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q36_3b0258ff,36,1,0,A1 robusta,5.0,1.3333333333333335,4.0,2.0,0.666666666666667
+A1_pipeline vs S_estatico,q36_55ffd692,36,2,1,inconsistente,-8.0,0.5,1.0,1.0,0.3333333333333335
+A1_pipeline vs S_estatico,q36_5b74a6e0,36,0,0,A1 robusta,-15.0,1.5,4.0,3.0,0.33333333333333304
+A1_pipeline vs S_estatico,q36_7ef6c4ec,36,0,0,inconsistente,-13.0,0.0,0.0,0.0,0.0
+A1_pipeline vs S_estatico,q36_91948724,36,2,0,inconsistente,-4.0,0.16666666666666696,1.0,0.0,0.33333333333333304
+A1_pipeline vs S_estatico,q36_a25dbee1,36,1,1,A1 robusta,-3.0,1.0,3.0,2.0,0.666666666666667
+A1_pipeline vs S_estatico,q36_c7450e4b,36,2,1,inconsistente,-16.0,0.16666666666666607,1.0,1.0,0.33333333333333304
+A1_pipeline vs S_estatico,q36_e301a741,36,2,1,inconsistente,10.0,0.16666666666666696,1.0,0.0,0.6666666666666665
+A1_pipeline vs S_estatico,q37_30adcd4e,37,0,0,inconsistente,-9.0,0.5,2.0,1.0,0.0
+A1_pipeline vs S_estatico,q37_43ffb40b,37,0,1,inconsistente,-29.0,3.5,4.0,4.0,-1.3333333333333335
+A1_pipeline vs S_estatico,q37_4f1cecfe,37,2,1,S robusta,-32.0,-0.16666666666666696,0.0,1.0,-0.666666666666667
+A1_pipeline vs S_estatico,q37_64e5d3f8,37,1,1,S robusta,-16.0,0.833333333333333,4.0,2.0,0.0
+A1_pipeline vs S_estatico,q37_6cf741c4,37,0,1,inconsistente,-23.0,0.0,0.0,0.0,0.0
+A1_pipeline vs S_estatico,q37_6f4ee0da,37,1,2,inconsistente,-11.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q37_719c4775,37,2,2,A1 robusta,-33.0,0.16666666666666696,1.0,0.0,-0.33333333333333304
+A1_pipeline vs S_estatico,q37_734c77a9,37,1,1,inconsistente,-23.0,0.0,0.0,0.0,-0.666666666666667
+A1_pipeline vs S_estatico,q37_af43b8a7,37,0,1,S robusta,-18.0,1.1666666666666665,4.0,4.0,0.0
+A1_pipeline vs S_estatico,q37_b161465a,37,2,1,S robusta,-27.0,2.833333333333333,4.0,4.0,0.0
+A1_pipeline vs S_estatico,q37_b5ddc9f6,37,2,2,inconsistente,-34.0,0.0,0.0,0.0,0.0
+A1_pipeline vs S_estatico,q37_c08646a6,37,1,2,S robusta,-8.0,-0.33333333333333304,0.0,-1.0,-1.0
+A1_pipeline vs S_estatico,q38_01c36718,38,2,1,A1 robusta,23.0,1.8333333333333335,4.0,3.0,-0.33333333333333304
+A1_pipeline vs S_estatico,q38_0c8288fb,38,1,1,inconsistente,0.0,0.5,2.0,1.0,1.0
+A1_pipeline vs S_estatico,q38_2bfefda8,38,0,0,inconsistente,-9.0,1.0,4.0,2.0,0.3333333333333335
+A1_pipeline vs S_estatico,q38_3af41c85,38,1,2,inconsistente,9.0,0.5,2.0,1.0,1.0
+A1_pipeline vs S_estatico,q38_5555bb21,38,1,1,inconsistente,5.0,0.833333333333333,3.0,2.0,-0.33333333333333304
+A1_pipeline vs S_estatico,q38_6aa1725e,38,0,1,A1 robusta,-3.0,0.0,0.0,0.0,1.0000000000000004
+A1_pipeline vs S_estatico,q38_721d27b7,38,2,2,inconsistente,3.0,0.33333333333333304,1.0,1.0,1.0
+A1_pipeline vs S_estatico,q38_8c31ed73,38,2,2,inconsistente,8.0,0.33333333333333304,1.0,1.0,0.3333333333333335
+A1_pipeline vs S_estatico,q38_d297009f,38,0,0,A1 robusta,-9.0,1.0,4.0,2.0,0.666666666666667
+A1_pipeline vs S_estatico,q38_dfee2a22,38,0,0,empate,-8.0,1.0,4.0,2.0,0.33333333333333304
+A1_pipeline vs S_estatico,q38_f4087b6f,38,2,1,inconsistente,-1.0,1.5,3.0,2.0,-0.3333333333333335
+A1_pipeline vs S_estatico,q38_fff77d9d,38,1,2,inconsistente,-7.0,1.3333333333333335,3.0,2.0,2.0
+A1_pipeline vs S_estatico,q39_055ac480,39,0,0,inconsistente,11.0,-0.5,-1.0,-2.0,0.0
+A1_pipeline vs S_estatico,q39_08b3ca2d,39,2,1,inconsistente,12.0,1.5,3.0,2.0,-0.3333333333333339
+A1_pipeline vs S_estatico,q39_524585dd,39,2,1,A1 robusta,8.0,1.1666666666666665,3.0,2.0,0.666666666666667
+A1_pipeline vs S_estatico,q39_5478e8e0,39,0,0,inconsistente,18.0,0.0,0.0,0.0,-0.3333333333333339
+A1_pipeline vs S_estatico,q39_5e210645,39,0,0,inconsistente,8.0,0.0,0.0,0.0,-0.666666666666667
+A1_pipeline vs S_estatico,q39_75db2b70,39,1,1,inconsistente,24.0,0.16666666666666696,1.0,0.0,0.0
+A1_pipeline vs S_estatico,q39_769a5b1f,39,1,1,inconsistente,22.0,0.0,0.0,1.0,0.0
+A1_pipeline vs S_estatico,q39_79e2fa90,39,2,2,inconsistente,9.0,1.6666666666666665,3.0,3.0,0.33333333333333304
+A1_pipeline vs S_estatico,q39_9c8d3963,39,1,2,inconsistente,12.0,0.0,0.0,0.0,0.0
+A1_pipeline vs S_estatico,q39_aa998897,39,0,0,inconsistente,8.0,0.0,0.0,0.0,-0.666666666666667
+A1_pipeline vs S_estatico,q39_c80043bf,39,2,1,inconsistente,2.0,0.16666666666666696,0.0,0.0,0.0
+A1_pipeline vs S_estatico,q39_e8d5ed15,39,1,0,inconsistente,-2.0,0.8333333333333335,2.0,2.0,0.0
+A1_pipeline vs S_estatico,q40_0c7ecec6,40,1,1,A1 robusta,-3.0,1.3333333333333335,3.0,2.0,0.0
+A1_pipeline vs S_estatico,q40_19368b9f,40,0,0,inconsistente,5.0,-1.0,-3.0,-2.0,0.0
+A1_pipeline vs S_estatico,q40_43b59840,40,0,1,inconsistente,-7.0,0.0,0.0,0.0,0.0
+A1_pipeline vs S_estatico,q40_710ead7e,40,2,2,inconsistente,3.0,0.0,0.0,0.0,0.0
+A1_pipeline vs S_estatico,q40_825600d0,40,1,2,inconsistente,7.0,0.16666666666666696,1.0,0.0,0.0
+A1_pipeline vs S_estatico,q40_8b4eeeeb,40,1,1,inconsistente,-13.0,0.16666666666666696,1.0,0.0,0.33333333333333304
+A1_pipeline vs S_estatico,q40_96e5bbbc,40,2,1,inconsistente,2.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs S_estatico,q40_a43c5160,40,1,1,inconsistente,-5.0,3.166666666666666,3.0,4.0,0.33333333333333304
+A1_pipeline vs S_estatico,q40_aec2eafe,40,0,0,inconsistente,-14.0,-0.9999999999999996,-2.0,-2.0,0.0
+A1_pipeline vs S_estatico,q40_ba1815f8,40,2,2,inconsistente,19.0,0.16666666666666696,0.0,0.0,1.0
+A1_pipeline vs S_estatico,q40_be604254,40,0,0,inconsistente,-7.0,0.0,0.0,0.0,0.0
+A1_pipeline vs S_estatico,q40_f1431191,40,2,1,inconsistente,-4.0,1.1666666666666665,3.0,2.0,0.0
+A1_pipeline vs S_estatico,q41_0cc175b9,41,0,0,inconsistente,1.0,-1.0,-4.0,-2.0,0.0
+A1_pipeline vs S_estatico,q41_20934a12,41,1,1,inconsistente,11.0,-0.833333333333333,-2.0,-2.0,0.3333333333333335
+A1_pipeline vs S_estatico,q41_2d0dd168,41,2,1,inconsistente,14.0,-0.5,1.0,1.0,0.3333333333333335
+A1_pipeline vs S_estatico,q41_3f6b294b,41,1,1,inconsistente,14.0,0.0,1.0,0.0,0.33333333333333304
+A1_pipeline vs S_estatico,q41_7a66a72a,41,0,0,inconsistente,5.0,-1.0,-3.0,-2.0,0.3333333333333339
+A1_pipeline vs S_estatico,q41_810c0c93,41,1,2,inconsistente,-1.0,0.8333333333333335,2.0,1.0,-0.33333333333333304
+A1_pipeline vs S_estatico,q41_818c5a0f,41,0,0,inconsistente,6.0,-0.6666666666666665,-2.0,-1.0,0.0
+A1_pipeline vs S_estatico,q41_9487cb38,41,0,1,inconsistente,47.0,0.0,0.0,0.0,1.0
+A1_pipeline vs S_estatico,q41_a0dbcb10,41,2,1,inconsistente,15.0,0.16666666666666696,1.0,0.0,0.3333333333333335
+A1_pipeline vs S_estatico,q41_a3c5a7ad,41,2,3,S robusta,6.0,-0.666666666666667,0.0,0.0,0.0
+A1_pipeline vs S_estatico,q41_d9c2ba81,41,2,0,S robusta,11.0,-0.16666666666666696,0.0,0.0,0.3333333333333339
+A1_pipeline vs S_estatico,q41_eebb4b78,41,1,1,inconsistente,-7.0,1.1666666666666665,3.0,2.0,0.3333333333333335
+A1_pipeline vs S_estatico,q42_01bc38b0,42,1,1,inconsistente,-25.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs S_estatico,q42_29166fd6,42,1,1,inconsistente,-7.0,0.16666666666666696,0.0,0.0,0.0
+A1_pipeline vs S_estatico,q42_2ccebe10,42,0,2,inconsistente,-16.0,0.16666666666666696,1.0,0.0,0.0
+A1_pipeline vs S_estatico,q42_4ba7c097,42,0,1,inconsistente,-5.0,0.16666666666666696,0.0,0.0,-0.3333333333333339
+A1_pipeline vs S_estatico,q42_5dc3a7db,42,1,1,inconsistente,-18.0,-0.16666666666666696,0.0,0.0,-0.3333333333333339
+A1_pipeline vs S_estatico,q42_61bcef6c,42,0,1,inconsistente,-10.0,0.16666666666666696,0.0,0.0,0.0
+A1_pipeline vs S_estatico,q42_6767631e,42,0,1,inconsistente,-4.0,-0.666666666666667,-1.0,-1.0,0.666666666666667
+A1_pipeline vs S_estatico,q42_69e544c1,42,1,0,inconsistente,-4.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q42_85a86e6d,42,2,2,S robusta,2.0,-0.33333333333333304,-1.0,0.0,-0.6666666666666665
+A1_pipeline vs S_estatico,q42_9260e885,42,2,2,S robusta,-9.0,-0.666666666666667,0.0,-1.0,-1.0
+A1_pipeline vs S_estatico,q42_c8ec849e,42,2,1,A1 robusta,-2.0,0.16666666666666696,1.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q42_cfd97dfc,42,2,2,S robusta,6.0,0.0,0.0,0.0,-1.333333333333334
+A1_pipeline vs S_estatico,q43_14cd89ab,43,1,1,inconsistente,4.0,0.0,0.0,0.0,1.0
+A1_pipeline vs S_estatico,q43_262a0deb,43,2,1,inconsistente,2.0,3.166666666666667,4.0,4.0,1.0
+A1_pipeline vs S_estatico,q43_775bbc45,43,0,1,inconsistente,3.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs S_estatico,q43_7fc56270,43,0,0,S robusta,0.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q43_88cf952a,43,0,0,inconsistente,0.0,0.0,0.0,0.0,1.0
+A1_pipeline vs S_estatico,q43_91597e47,43,2,1,inconsistente,3.0,-1.1666666666666665,-3.0,-2.0,1.0
+A1_pipeline vs S_estatico,q43_a382ef16,43,1,1,inconsistente,3.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q43_af18fe7e,43,2,2,inconsistente,-6.0,0.16666666666666696,1.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q43_c2a595c1,43,1,1,inconsistente,-7.0,0.0,0.0,0.0,1.0
+A1_pipeline vs S_estatico,q43_da5a83a4,43,2,1,inconsistente,1.0,0.0,0.0,0.0,1.3333333333333335
+A1_pipeline vs S_estatico,q43_da8076df,43,1,2,inconsistente,3.0,1.5,3.0,2.0,0.0
+A1_pipeline vs S_estatico,q43_e7d14b82,43,0,0,inconsistente,5.0,0.0,0.0,0.0,0.3333333333333339
+A1_pipeline vs S_estatico,q44_453274e1,44,1,0,inconsistente,-12.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q44_523c8e7c,44,0,1,inconsistente,10.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q44_8b7fd725,44,2,2,S robusta,-6.0,0.16666666666666696,1.0,0.0,0.3333333333333335
+A1_pipeline vs S_estatico,q44_8d300d24,44,1,0,inconsistente,-4.0,0.0,0.0,0.0,1.0
+A1_pipeline vs S_estatico,q44_9f3033c9,44,2,1,inconsistente,-9.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q44_a37f184b,44,0,1,inconsistente,-5.0,0.0,0.0,0.0,0.0
+A1_pipeline vs S_estatico,q44_ba89325e,44,1,0,inconsistente,-14.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q44_d15c8456,44,0,1,inconsistente,6.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q44_d922120c,44,0,0,inconsistente,-3.0,0.0,0.0,0.0,1.0
+A1_pipeline vs S_estatico,q44_dfe6465c,44,1,1,inconsistente,-4.0,0.0,0.0,0.0,0.0
+A1_pipeline vs S_estatico,q44_ea65778d,44,2,1,inconsistente,-19.0,0.0,0.0,0.0,1.0
+A1_pipeline vs S_estatico,q44_ef702dfe,44,2,1,inconsistente,4.0,0.0,0.0,0.0,1.0
+A1_pipeline vs S_estatico,q45_1c34f478,45,2,1,S robusta,26.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q45_1e8f77d1,45,0,0,inconsistente,-5.0,0.0,0.0,0.0,-0.3333333333333339
+A1_pipeline vs S_estatico,q45_2a7cf00f,45,2,2,inconsistente,7.0,0.0,0.0,0.0,-0.3333333333333335
+A1_pipeline vs S_estatico,q45_2c7bc4b1,45,2,2,inconsistente,-14.0,1.3333333333333335,4.0,3.0,0.0
+A1_pipeline vs S_estatico,q45_3ab35e93,45,2,1,S robusta,-3.0,0.0,0.0,0.0,-0.33333333333333304
+A1_pipeline vs S_estatico,q45_3fb962bc,45,0,0,inconsistente,-15.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs S_estatico,q45_4dbf601c,45,1,2,inconsistente,1.0,-0.16666666666666696,-1.0,0.0,0.0
+A1_pipeline vs S_estatico,q45_8f82ceed,45,0,0,inconsistente,-5.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs S_estatico,q45_a8082db9,45,1,1,inconsistente,-3.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs S_estatico,q45_b7d7b36f,45,0,0,inconsistente,4.0,0.0,0.0,0.0,0.33333333333333304
+A1_pipeline vs S_estatico,q45_ccdb7c53,45,1,1,inconsistente,5.0,0.16666666666666696,0.0,1.0,0.33333333333333304
+A1_pipeline vs S_estatico,q45_cf5e4b69,45,1,1,inconsistente,-7.0,0.0,0.0,0.0,-0.3333333333333339
+A1_pipeline vs S_estatico,q46_167a859d,46,1,2,inconsistente,4.0,1.1666666666666665,3.0,2.0,0.0
+A1_pipeline vs S_estatico,q46_484cf75f,46,2,1,A1 robusta,-2.0,1.1666666666666665,4.0,3.0,-0.33333333333333304
+A1_pipeline vs S_estatico,q46_4ad829f8,46,0,1,inconsistente,1.0,-1.1666666666666665,-3.0,-2.0,0.0
+A1_pipeline vs S_estatico,q46_5058f1af,46,0,0,inconsistente,1.0,-0.16666666666666696,0.0,0.0,0.0
+A1_pipeline vs S_estatico,q46_5cc8d721,46,0,0,inconsistente,4.0,0.0,0.0,0.0,-0.33333333333333304
+A1_pipeline vs S_estatico,q46_6de0a418,46,2,2,inconsistente,0.0,0.0,1.0,0.0,0.33333333333333304
+A1_pipeline vs S_estatico,q46_717e0b39,46,1,1,inconsistente,8.0,0.0,0.0,0.0,-1.0000000000000004
+A1_pipeline vs S_estatico,q46_a57c9fbc,46,1,1,inconsistente,17.0,1.4999999999999996,3.0,3.0,0.0
+A1_pipeline vs S_estatico,q46_a627cd2a,46,2,2,inconsistente,16.0,1.0,3.0,2.0,0.0
+A1_pipeline vs S_estatico,q46_a9703b49,46,1,2,inconsistente,2.0,0.16666666666666696,1.0,0.0,0.0
+A1_pipeline vs S_estatico,q46_d30ff6f9,46,0,0,inconsistente,-8.0,0.666666666666667,3.0,2.0,-0.666666666666667
+A1_pipeline vs S_estatico,q46_ff96613c,46,2,2,S robusta,6.0,0.8333333333333335,2.0,2.0,-0.3333333333333335
+A1_pipeline vs S_estatico,q47_1bc0934c,47,1,0,inconsistente,-2.0,0.5,1.0,1.0,0.0
+A1_pipeline vs S_estatico,q47_2635d791,47,1,1,inconsistente,0.0,1.0,3.0,2.0,0.0
+A1_pipeline vs S_estatico,q47_5a854d24,47,2,1,A1 robusta,-7.0,1.0,3.0,2.0,0.3333333333333339
+A1_pipeline vs S_estatico,q47_6d0efb81,47,0,0,A1 robusta,8.0,0.0,0.0,0.0,0.0
+A1_pipeline vs S_estatico,q47_6ee8b195,47,0,0,A1 robusta,1.0,0.33333333333333304,1.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q47_74e82f61,47,2,1,A1 robusta,4.0,1.1666666666666665,2.0,2.0,-0.33333333333333304
+A1_pipeline vs S_estatico,q47_848ea44f,47,0,1,A1 robusta,-9.0,0.833333333333333,2.0,2.0,1.0
+A1_pipeline vs S_estatico,q47_8611ab22,47,1,0,inconsistente,10.0,0.16666666666666696,1.0,0.0,-1.0
+A1_pipeline vs S_estatico,q47_c5db2836,47,1,0,inconsistente,-10.0,0.16666666666666696,1.0,0.0,0.33333333333333304
+A1_pipeline vs S_estatico,q47_d2ec08e9,47,0,0,A1 robusta,1.0,-0.16666666666666696,0.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q47_dac2c3fe,47,2,1,S robusta,-9.0,0.16666666666666696,1.0,0.0,1.3333333333333335
+A1_pipeline vs S_estatico,q47_e409caec,47,2,1,inconsistente,7.0,0.16666666666666696,1.0,0.0,0.0
+A1_pipeline vs S_estatico,q48_08a9cbd1,48,2,1,inconsistente,1.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q48_173a3321,48,0,0,inconsistente,-10.0,0.0,0.0,0.0,1.3333333333333335
+A1_pipeline vs S_estatico,q48_26f5a7e6,48,1,1,inconsistente,6.0,0.16666666666666696,1.0,0.0,0.3333333333333335
+A1_pipeline vs S_estatico,q48_2e861bb2,48,1,1,inconsistente,-4.0,0.0,0.0,0.0,0.6666666666666665
+A1_pipeline vs S_estatico,q48_581db633,48,0,1,inconsistente,1.0,0.33333333333333304,1.0,1.0,-0.33333333333333304
+A1_pipeline vs S_estatico,q48_76581651,48,1,1,inconsistente,13.0,2.1666666666666665,3.0,3.0,0.6666666666666665
+A1_pipeline vs S_estatico,q48_770940a2,48,0,1,inconsistente,7.0,-1.0,-3.0,-2.0,0.666666666666667
+A1_pipeline vs S_estatico,q48_77fcaad2,48,2,1,A1 robusta,12.0,0.16666666666666607,0.0,1.0,0.3333333333333335
+A1_pipeline vs S_estatico,q48_79683c90,48,2,1,inconsistente,-5.0,-3.166666666666667,-4.0,-4.0,1.3333333333333335
+A1_pipeline vs S_estatico,q48_79b95661,48,2,2,inconsistente,14.0,1.0000000000000004,0.0,1.0,0.3333333333333335
+A1_pipeline vs S_estatico,q48_8b86fa69,48,0,1,inconsistente,-4.0,0.0,0.0,0.0,0.3333333333333335
+A1_pipeline vs S_estatico,q48_f015bd5f,48,1,1,inconsistente,-7.0,0.0,0.0,0.0,1.0000000000000004
+A1_pipeline vs S_estatico,q49_3b41f8ae,49,0,0,inconsistente,6.0,0.16666666666666696,1.0,0.0,0.0
+A1_pipeline vs S_estatico,q49_3f08c667,49,1,1,A1 robusta,5.0,-0.16666666666666696,-1.0,0.0,0.3333333333333339
+A1_pipeline vs S_estatico,q49_7618a1ad,49,0,1,inconsistente,25.0,0.16666666666666696,1.0,0.0,0.0
+A1_pipeline vs S_estatico,q49_8bf2a16c,49,1,0,inconsistente,21.0,1.666666666666667,3.0,3.0,1.0
+A1_pipeline vs S_estatico,q49_a517a1c0,49,2,1,inconsistente,6.0,0.0,0.0,0.0,-0.6666666666666665
+A1_pipeline vs S_estatico,q49_b47d0ed8,49,1,1,inconsistente,15.0,0.16666666666666696,1.0,0.0,0.3333333333333339
+A1_pipeline vs S_estatico,q49_bdeed107,49,0,1,inconsistente,13.0,-0.5,-1.0,-1.0,0.3333333333333339
+A1_pipeline vs S_estatico,q49_def67946,49,0,1,A1 robusta,2.0,0.5,2.0,1.0,0.0
+A1_pipeline vs S_estatico,q49_df07c26f,49,2,1,S robusta,8.0,0.0,0.0,0.0,0.3333333333333339
+A1_pipeline vs S_estatico,q49_e4b59a2e,49,2,1,inconsistente,13.0,1.1666666666666665,3.0,2.0,0.0
+A1_pipeline vs S_estatico,q49_edde929c,49,2,2,inconsistente,9.0,-0.16666666666666696,-1.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q49_f691c99e,49,1,1,A1 robusta,20.0,0.0,0.0,0.0,-0.3333333333333339
+A1_pipeline vs S_estatico,q50_07d7c49a,50,0,0,A1 robusta,2.0,0.0,0.0,0.0,0.666666666666667
+A1_pipeline vs S_estatico,q50_0ba0bc48,50,1,1,inconsistente,-3.0,0.0,0.0,0.0,0.0
+A1_pipeline vs S_estatico,q50_286d7b3a,50,2,1,inconsistente,-17.0,0.16666666666666696,1.0,0.0,0.3333333333333339
+A1_pipeline vs S_estatico,q50_2aca6c43,50,2,1,inconsistente,-3.0,-0.16666666666666696,-1.0,0.0,0.3333333333333339
+A1_pipeline vs S_estatico,q50_38de9622,50,1,1,inconsistente,-9.0,0.666666666666667,2.0,2.0,0.3333333333333339
+A1_pipeline vs S_estatico,q50_857d2a49,50,2,2,inconsistente,-18.0,-0.16666666666666696,-1.0,0.0,0.0
+A1_pipeline vs S_estatico,q50_b33eec8a,50,0,0,A1 robusta,3.0,0.833333333333333,4.0,1.0,0.666666666666667
+A1_pipeline vs S_estatico,q50_bf8b4dc8,50,1,1,inconsistente,-3.0,0.16666666666666696,1.0,0.0,0.33333333333333304
+A1_pipeline vs S_estatico,q50_c4757b01,50,1,1,inconsistente,-4.0,1.5,4.0,3.0,0.33333333333333304
+A1_pipeline vs S_estatico,q50_c61beeb4,50,0,0,A1 robusta,-8.0,0.0,0.0,0.0,0.3333333333333339
+A1_pipeline vs S_estatico,q50_cbf90a99,50,2,1,inconsistente,-3.0,-1.4999999999999996,-2.0,-3.0,0.666666666666667
+A1_pipeline vs S_estatico,q50_df7b07b0,50,0,1,inconsistente,-7.0,1.0,3.0,2.0,0.33333333333333304

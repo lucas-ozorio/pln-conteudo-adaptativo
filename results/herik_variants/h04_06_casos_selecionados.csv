@@ -1,0 +1,8 @@
+item_id,tipo,ouro,diag,palavras A1/A0/S,foco A1/A0/S,util A1/A0/S,q_relev A1/A0/S,par A1×A0,par A1×S
+q36_3b0258ff,(i)+(iii) A1 > A0 e S; A0 sai do gabarito,1,0,166/131/161,5/5/1,5/5/3,5.00/3.67/4.33,A1,A1
+q39_524585dd,(i) A1 > A0 e S com diagnóstico conservador,2,1,154/115/146,5/5/2,5/5/3,4.67/4.00/4.00,A1,A1
+q40_19368b9f,(ii) A0 > A1 com diagnóstico correto,0,0,170/118/165,2/5/5,3/5/5,5.00/4.67/5.00,A0,incons.
+q37_4f1cecfe,(ii) sobre-remediação/estreitamento com diagnóstico conservador,2,1,146/152/178,4/4/4,5/5/4,4.33/5.00/5.00,A0,S
+q42_9260e885,(ii)+(iii invertido) erro do diagnóstico propagado pelo A1,2,2,149/135/158,5/5/5,4/5/5,3.33/4.67/4.33,A0,S
+q45_2a7cf00f,(iv) questões: lacunas 'forçadas' em aluno que já acertou,2,2,150/96/143,5/5/5,5/5/5,3.67/5.00/4.00,A0,incons.
+q43_da5a83a4,(iv) questões: A1 mira as lacunas,2,1,159/114/158,5/5/5,5/5/5,5.00/3.67/3.67,incons.,incons.
