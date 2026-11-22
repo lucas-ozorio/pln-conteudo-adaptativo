@@ -1,0 +1,53 @@
+% ==============================================================================
+% Pacote de Contribuição RQ2/RQ3 (H-03 + H-04) — pronto para integrar em paper/main.tex
+% GERADO por scripts/make_herik_variants_assets.py: não editar à mão; todos os números vêm de
+% results/herik_variants/h03_*.csv e h04_*.csv (n = 180 itens, 15 questões).
+% Não altera paper/main.tex. Instruções linha a linha em paper/herik_contrib/INTEGRACAO_RQ2_RQ3.md.
+% Nenhuma resposta de aluno é reproduzida além do exemplo curto que o main.tex já contém (CC BY-NC-SA 4.0).
+% ==============================================================================
+
+% ------------------------------------------------------------------------------
+% BLOCO 1 (§5.2): substituir o parágrafo \paragraph{Does the explicit diagnosis help?} (main.tex L166)
+% ------------------------------------------------------------------------------
+\paragraph{Does the explicit diagnosis help?} Largely no. Direct generation (A0), which also conditions on the student's answer but has no explicit diagnosis, obtains almost the same focus gain over S as A1 ($+0.78$ vs.\ $+0.80$). Comparing A1 with A0 directly, gap focus differs by $+0.02$ and usefulness by $+0.12$, with intervals spanning zero (Table~\ref{tab:contrasts}); coherence ($+0.13$) and level adequacy ($+0.10$) are nominally positive but do not survive Holm correction. In order-swapped pairwise judgments, A1 beats A0 in both orders on 34 of 180 items and A0 beats A1 on 14 (sign test $p{=}0.006$, ignoring clustering; 132 items are order-inconsistent), but only 26\% of A1's robust wins also show a higher absolute mean: the preference reflects organization and style rather than different content.
+
+\emph{Is A1's small edge a length artifact?} A0 lands at the lower edge of the shared budget (51\% of A0 texts have fewer than 120 words), and A1 is longer than A0 for 99.4\% of the items (median difference 37 words), so length and condition are almost collinear in this contrast. Three checks (Table~\ref{tab:rq3_length}a) indicate that length does not drive the difference. (i)~In a within-item regression over A1, A0 and S with question-clustered standard errors, the coefficient of $\log(\text{words})$ is not significant for any dimension ($p\ge 0.37$; negative in 7 of 9), and adding it does not shrink A1$-$A0 (usefulness $+0.12$ $\to$ $+0.25$), although the standard error grows (0.08 $\to$ 0.23) because A1 and A0 barely overlap in length. (ii)~The item-level difference in scores is unrelated to the difference in words (Spearman $|\rho|\le 0.11$), and the text-mean gap is flat across terciles of the length difference (0.05--0.08). (iii)~S has the same length as A1 and still scores below the shorter A0 on focus and usefulness. Robust pairwise wins of A1 and of A0 do not differ in length difference (41 vs.\ 32 words; Mann--Whitney $p{=}0.15$). The conclusion is therefore not that length explains A1's advantage, but that the advantage is small to begin with.
+
+\emph{Where does the diagnosis help or hurt?} A1's edge over A0 is largest for gold-1 answers (text mean $+0.12$, usefulness $+0.20$) and vanishes for gold-2 answers, where A0 wins 15\% of robust pairwise verdicts vs.\ 13\% for A1 and S also wins most often against A1 (22\%; Table~\ref{tab:rq3_length}b). Errors in the estimated grade do not explain this: A1$-$A0 is $-0.02$ for under-graded answers ($n{=}49$), $+0.08$ when the grade is correct ($n{=}95$) and $+0.17$ when over-graded ($n{=}36$; under- vs.\ correctly graded, Mann--Whitney $p{=}0.71$; Table~\ref{tab:rq3_length}c). The weak spot is instead gold-2 answers graded \emph{correctly} ($n{=}20$), where A0 wins 30\% vs.\ 5\%. Reading the paired materials (Table~\ref{tab:rq3_qual}) points to the gap list rather than the grade: the diagnosis fills all three priority-gap slots in 179 of 180 items, and A1, instructed to address only those gaps, follows them even when they are peripheral or wrong. In \texttt{q42}, which holds 7 of the 14 robust A0 wins, a gap outside the reference (spermatogenesis) reaches 3 of 12 A1 texts and none of A0's, and in one item A1 repeats a terminology ``correction'' that the diagnosis invented.
+
+\begin{table*}[t]
+\centering\footnotesize
+\input{herik_contrib/tab_rq3_length_and_strat.tex}
+\caption{A1 vs.\ A0 (and S) beyond the averages. (a) Raw paired difference with 95\% question-clustered bootstrap CI ($^{*}$: CI excludes~0, uncorrected); CIs are recomputed from item-level scores ($5{,}000$ resamples, own seed) and may differ from Table~\ref{tab:contrasts} in the second decimal. \emph{Adj.}: A1$-$A0 in a within-item regression on A1, A0 and S adding $\log(\text{words})$, with question-clustered SE; $\beta_{\log w}$: its coefficient; $\alpha_{\Delta w=0}$: intercept of the item-level regression of the A1$-$A0 score difference on the $\log$-length difference (A1's advantage at equal length); $\rho$: Spearman between word and score differences. (b) Stratified by gold grade; \emph{Wins}: share of items won in both orders. (c) Stratified by the diagnosis's grade error; CIs resample items (exploratory). Source: \texttt{results/herik\_variants/}.}
+\label{tab:rq3_length}
+\end{table*}
+
+% ------------------------------------------------------------------------------
+% BLOCO 2 (§5.3 Questions): substituir a 2ª frase do parágrafo (main.tex L169, "Gap relevance is higher ...")
+% ------------------------------------------------------------------------------
+Gap relevance is higher for adaptive conditions (A1$-$S $+0.24$, A0$-$S $+0.12$; not in the Holm family), and A1's questions, which receive the diagnosis's gap list, are also more gap-relevant than A0's ($+0.12$, question-clustered CI $[0.01, 0.22]$), including for under-graded answers ($+0.26$, item-level CI $[0.11, 0.41]$). The price is slightly lower clarity ($-0.06$, $[-0.10, -0.02]$; both uncorrected): A1 stems are longer (17.7 vs.\ 14.4 words) and more often compound (``compare X and discuss Y''). When the listed gaps are peripheral, the same link turns them into peripheral questions (Table~\ref{tab:rq3_qual}).
+
+% ------------------------------------------------------------------------------
+% BLOCO 3 (Discussion): substituir o item (i) de \paragraph{What it does not support.} (main.tex L185)
+% ------------------------------------------------------------------------------
+(i)~That an explicit diagnosis stage is needed: a single-call baseline matches it on the dimensions that matter, and its small edge in coherence, level adequacy and question relevance does not appear to be a length artifact but may stem from prompt differences rather than from the diagnosis itself. A1 and A0 differ in more than the diagnosis: A1's support-text prompt asks for an everyday analogy and an encouraging tone and its questions are generated in a separate call that receives the gap list, whereas A0 produces text and questions in one JSON call that also receives the key concepts. A clean ablation would run A1's prompts with an empty diagnosis. The diagnosis is also a point of failure: with a fixed three-gap list, it helps partly correct answers but narrows or misdirects material for nearly correct ones and can propagate its own errors. It may still be valuable as an interpretable artifact for teachers (its QWK is moderate and conservative), which we did not evaluate.
+
+% ------------------------------------------------------------------------------
+% BLOCO 4 (Limitations): substituir \textbf{Scope.} (L194) e \textbf{Generation.} (L197)
+% ------------------------------------------------------------------------------
+\textbf{Scope.} One domain (school biology), one level (grades 8--9), 15 questions, 180 generated items; the pilot excludes gold-3 answers, but already for gold-2 answers A1 loses its edge over A0 and the paired reading suggests over-remediation (Tables~\ref{tab:rq3_length}b and~\ref{tab:rq3_qual}), so the risk may be larger for fully correct answers. Statistics resample questions, but 15 clusters give wide intervals, and per-grade or per-question analyses ($n{=}60$ or $12$) are exploratory and uncorrected.
+
+\textbf{Generation.} A single generation run per item (temperature 0.4); no repeated seeds. A0 lands at the lower edge of the word budget (mean 120 words; 51\% below 120), so A1 and A0 barely overlap in length; we rely on S (same length as A1) and within-item length controls rather than on length-matched A1--A0 pairs. The off-reference check in Table~\ref{tab:rq3_qual} is a curated lexical proxy, not human annotation.
+
+% ------------------------------------------------------------------------------
+% BLOCO 5 (Apêndice): incluir em \subsection{Additional tables} (após L238) e substituir a última
+% frase do \subsection{Qualitative example} (L241: "A0 also acknowledges chloroplasts, but adds ...")
+% ------------------------------------------------------------------------------
+\begin{table*}[h]
+\centering\footnotesize
+\input{herik_contrib/tab_rq3_qualitative_summary.tex}
+\caption{Mechanisms behind A1 vs.\ A0, from reading paired materials and counting their recurrence over the 180 pilot items (no student answers reproduced). Item IDs refer to the released outputs; ``diag.'': grade estimated by the diagnosis. Off-reference terms come from a curated list of school-biology terms absent from both the reference answers and the static text S of the question; ``not traceable'' means the term does not occur in the diagnosis either, which quotes the student's answer.}
+\label{tab:rq3_qual}
+\end{table*}
+
+A0 also acknowledges chloroplasts, but adds content not in the reference answers (vacuoles). This is occasional rather than systematic: vacuoles appear in 4 of the 12 A0 texts for this question (in 2 of them the student had mentioned vacuoles) and in 1 A1 text; over all items, curated off-reference technical terms occur 61 times in A0 and 44 times in A1, and judged faithfulness is equal (A1$-$A0 $+0.02$). Symmetrically, A1 leaves the reference when its diagnosis does (Table~\ref{tab:rq3_qual}).
