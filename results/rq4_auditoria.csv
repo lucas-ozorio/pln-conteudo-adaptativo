@@ -1,0 +1,13 @@
+grupo_verificador,rotulo_humano,n,prop,ic_lo,ic_hi
+aceita (conhecimento_geral_correto),correta,10,0.7,0.39677321997956516,0.892210712513788
+aceita (conhecimento_geral_correto),incorreta,10,0.0,0.0,0.2775401687666166
+aceita (conhecimento_geral_correto),duvidosa,10,0.1,0.01787574951572113,0.4041563854975721
+aceita (conhecimento_geral_correto),nao_factual,10,0.2,0.056680947980693314,0.5098431532792765
+aceita (suportada),correta,10,0.9,0.5958436145024278,0.9821242504842788
+aceita (suportada),incorreta,10,0.0,0.0,0.2775401687666166
+aceita (suportada),duvidosa,10,0.1,0.01787574951572113,0.4041563854975721
+aceita (suportada),nao_factual,10,0.0,0.0,0.2775401687666166
+marcada (nao_suportada/incorreta),correta,30,0.16666666666666666,0.07336434240351683,0.33564705185680177
+marcada (nao_suportada/incorreta),incorreta,30,0.06666666666666667,0.01847663532769335,0.21323817721072091
+marcada (nao_suportada/incorreta),duvidosa,30,0.1,0.03459925995971615,0.25621441315266624
+marcada (nao_suportada/incorreta),nao_factual,30,0.6666666666666666,0.48779725813830266,0.807697044731538

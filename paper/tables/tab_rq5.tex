@@ -1,0 +1,13 @@
+\begin{tabular}{lcccc}
+\toprule
+Material & Copied 3-grams & 3-gram overlap w/ ref. & Gain [95\% CI] & Reaches 3 \\
+\midrule
+Original answer (human) & -- & 5\% & -- & 14\% \\
+No material & -- & 4\% & $+0.45$ [0.21, 0.68] & 24\% \\
+Reference answers (S0) & 20\% & 20\% & $+1.22$ [0.96, 1.44] & 74\% \\
+Static reinforcement (S) & 22\% & 8\% & $+1.29$ [1.13, 1.44] & 75\% \\
+Direct generation (A0) & 26\% & 8\% & $+1.28$ [1.10, 1.44] & 76\% \\
+Diagnose-then-generate (A1) & 30\% & 7\% & $+1.44$ [1.28, 1.57] & 82\% \\
+A1 + verification (A2) & 30\% & 7\% & $+1.39$ [1.19, 1.56] & 79\% \\
+\bottomrule
+\end{tabular}
