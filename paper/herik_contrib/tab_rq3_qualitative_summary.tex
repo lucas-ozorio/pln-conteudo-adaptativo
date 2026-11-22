@@ -1,0 +1,13 @@
+\begin{tabular}{p{0.20\textwidth}p{0.47\textwidth}p{0.25\textwidth}}
+\toprule
+Mechanism & Evidence (180 items) & Example \\
+\midrule
+Forced gaps & The diagnosis lists exactly 3 priority gaps in 179/180 items, also for gold-2 answers (98\%). With gold 2 and a correct grade ($n{=}20$), A0 wins 30\% of robust pairwise verdicts vs.\ 5\% for A1. & \texttt{q45\_2a7cf00f} (gold 2, diag.\ 2): peripheral gaps become peripheral questions. \\
+Diagnosis errors propagate & In \texttt{q42}, a gap outside the reference (spermatogenesis) appears in 3/12 A1 vs.\ 0/12 A0 texts; \texttt{q42} holds 7 of the 14 robust A0 wins. & \texttt{q42\_9260e885} (gold 2, diag.\ 2): A1 repeats a false terminology ``correction'' produced by the diagnosis. \\
+Narrowing & Instructed to address \emph{only} the listed gaps, A1 may ignore content the student did discuss. & \texttt{q37\_4f1cecfe} (gold 2, diag.\ 1): A0 and S both beat A1 in both orders. \\
+Diagnosed error not used & The diagnosis contains the misconception, but the A1 text stays generic (focus 2 vs.\ 5 for A0). & \texttt{q40\_19368b9f} (gold 0, diag.\ 0). \\
+Off-reference content & Curated technical terms absent from the reference and from S: A0 61 occurrences in 43 items (17 not traceable to the student's answer) vs.\ A1 44 in 36 (13). ``Vacuole'' in \texttt{q36}: A0 4/12 (student mentioned it in 2), A1 1/12. Judged faithfulness: A1$-$A0 $+0.02$. & \texttt{q36\_3b0258ff} (gold 1, diag.\ 0): A0 adds vacuoles; A1 wins vs.\ A0 and S. \\
+Gap-targeted questions & A1 questions receive the gap list: relevance $+0.12$ vs.\ A0, $+0.24$ vs.\ S; clarity $-0.06$ vs.\ A0 (stems of 17.7 vs.\ 14.4 words). & \texttt{q43\_da5a83a4} (gold 2, diag.\ 1): all three questions target the gaps. \\
+Grade under-estimation is harmless on average & A1$-$A0 text mean: under-graded $-0.02$ ($n{=}49$) vs.\ correct $+0.08$ ($n{=}95$); Mann--Whitney $p{=}0.71$. & \texttt{q39\_524585dd} (gold 2, diag.\ 1): under-graded, A1 still wins vs.\ A0 and S. \\
+\bottomrule
+\end{tabular}
