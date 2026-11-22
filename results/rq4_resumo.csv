@@ -1,0 +1,17 @@
+,valor
+afirmacoes_por_texto,8.322222222222223
+problemas_por_texto,1.211111111111111
+frac_reescritos,0.7388888888888889
+n_reescritos,133.0
+palavras_A1_reescritos,158.3984962406015
+palavras_A2_reescritos,139.4812030075188
+verif_incorretas_total,2.0
+juiz_incorretas_A1_total,1.0
+juiz_incorretas_A1_itens_com_>=1,1.0
+desses_verificador_marcou_algum_problema,0.0
+S0_incorretas_por_texto,0.17777777777777778
+S0_ic_lo,0.08888888888888889
+S0_ic_hi,0.2833333333333333
+S0_frac_itens_com_>=1,0.12777777777777777
+S0_questoes_com_alguma_marcacao,10.0
+S0_correcao_conceitual_media,4.205555555555556

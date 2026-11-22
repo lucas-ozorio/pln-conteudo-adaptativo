@@ -22,3 +22,16 @@ O rascunho foi escrito com apoio de IA. Os números do texto vêm dos CSVs de `r
 
 ## Ética
 - [ ] Confirme com o professor/orientador o uso do PT-ASAG (CC BY-NC-SA 4.0) e a política de dados de menores da disciplina.
+
+## Integração da equipe (2026-11-22, branch `artigo-integrado`)
+Incorporado ao `main.tex` a partir do grupo de WhatsApp "NLP" e das branches do repositório:
+- **Herik** (`herik/rq1-diagnostico-e-variantes`): RQ1 (diagnóstico calibrado v1/v2, QWK 0,49 -> 0,58) em §5.1, resumo, Limitations e apêndice; RQ2/RQ3 (A1 x A0 x S, controle de tamanho, estratos, análise qualitativa) em §5.2, §5.3, Discussão, Limitations e apêndice. Textos colados sem alteração de conteúdo; só tabelas largas foram movidas ao apêndice para respeitar as 8 páginas.
+- **João** (`joao`): RQ4 (auditoria manual de 50 afirmações), vieses do juiz (mesmo texto, posição, comprimento) e RQ5 (cópia, estilo, teto) em §5.4 a §5.6 e Limitations; tabelas `tab_rq4/rq5/bias/bias_pairwise`. Aplicada a correção que ele pediu: a correção conceitual +0,03 [0,01; 0,07] de A2-A1 **não** é significativa após Holm.
+
+Pontos que **vocês precisam confirmar**:
+- [ ] O parágrafo "Weak generator" (§5.4) e a tabela `tab_rq4w` foram escritos por mim a partir de `results/rq4w_*.csv` (experimento do João com Llama 3.1 8B, que o texto `frente_c_rq4_rq5.md` não menciona). O João deve conferir a redação e se o experimento é para entrar. Essa seção muda a conclusão: a verificação ajuda o gerador fraco (incorretas -0,11, Holm p=0,022) mas custa foco (-0,33).
+- [ ] No WhatsApp o Herik cita "a branch `paizao`" do João; ela **não existe** no GitHub. O que existe é `joao` (RQ4/RQ5) e os commits do `Joao-IA` dentro da branch do Herik (execução v1/v2).
+- [ ] Os ICs de A1-S e A1-A0 do E3 vêm de sementes de bootstrap diferentes (meu `cluster_e3_contrastes.csv` x o `stats.py` do João): no texto, a versão sem ajuste usa a minha (-0,05; 0,33) e a ajustada usa a dele. Diferença só na 2a casa.
+- [ ] A auditoria do RQ4 tem **um** anotador (João). Se possível, um segundo anotador e um kappa.
+- [ ] Custo: cerca de US$ 3 no total (piloto 2,4 + calibração 0,32 + gerador fraco ~0,35, este estimado pelos tokens).
+- [ ] O experimento v2 (diagnóstico calibrado) **não** alimentou a geração; o artigo diz isso. Se rodarem a geração com v2, atualizem §5.2 a §5.6.

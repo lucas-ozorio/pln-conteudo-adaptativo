@@ -1,0 +1,11 @@
+\begin{tabular}{lccccccc}
+\toprule
+Variant & QWK [95\% CI] & $\Delta$QWK & Spearman & MAE & Bias & 3-gap ($g{=}3$) & Err ($g{=}3$) \\
+\midrule
+Original prompt (v0) & 0.487 [0.387, 0.586] & -- & 0.580 & 0.703 & $-0.380$ & 92.4\% & 30.3\% \\
+Calibrated rubric, zero-shot (v1) & 0.548 [0.450, 0.639] & $+0.061$* & 0.591 & 0.671 & $-0.166$ & 6.2\% & \textbf{2.8\%} \\
+v1 + cross-question anchors (v2) & \textbf{0.580} [0.480, 0.678] & $+0.093$* & \textbf{0.609} & \textbf{0.635} & \textbf{$-0.067$} & \textbf{4.1\%} & \textbf{2.8\%} \\
+\midrule
+\emph{Post-hoc LOGO calibration (v0)} & \emph{0.575} & \emph{$+0.088$} & \emph{0.577} & \emph{0.711} & \emph{$+0.166$} & -- & -- \\
+\bottomrule
+\end{tabular}
