@@ -1,0 +1,12 @@
+\begin{tabular}{lcccccccc}
+\toprule
+Version & Incorr./text & Texts w/ error & Rewritten & Corr. & Faith. & Useful & Focus & Words \\
+\midrule
+A1, GPT-4o mini (main pilot) & 0.01 & 0.6\% & -- & 4.95 & 4.74 & 4.74 & 4.59 & 159 \\
+A2, GPT-4o mini (main pilot) & 0.01 & 0.6\% & 74\% & 4.98 & 4.79 & 4.79 & 4.67 & 145 \\
+\midrule
+A1-weak (Llama 3.1 8B) & 0.22 & 12.8\% & -- & 4.51 & 4.25 & 4.28 & 4.37 & 183 \\
+A2-weak: rewrite if unsupported or incorrect & 0.11 & 6.1\% & 75\% & 4.69 & 4.30 & 4.10 & 4.03 & 159 \\
+A2-weak-inc: rewrite only if incorrect & 0.20 & 12.2\% & 18\% & 4.51 & 4.24 & 4.24 & 4.32 & 177 \\
+\bottomrule
+\end{tabular}
