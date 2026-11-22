@@ -1,0 +1,13 @@
+variante,ouro,pred_0,pred_1,pred_2,pred_3,total
+v0_baseline,0,85,63,2,0,150
+v0_baseline,1,16,107,27,0,150
+v0_baseline,2,7,89,52,2,150
+v0_baseline,3,2,65,67,11,145
+v1_rubrica_calibrada,0,70,73,7,0,150
+v1_rubrica_calibrada,1,10,99,35,6,150
+v1_rubrica_calibrada,2,3,72,59,16,150
+v1_rubrica_calibrada,3,1,42,74,28,145
+v2_fewshot_cross_q,0,71,66,13,0,150
+v2_fewshot_cross_q,1,5,93,44,8,150
+v2_fewshot_cross_q,2,4,53,76,17,150
+v2_fewshot_cross_q,3,0,29,85,31,145
