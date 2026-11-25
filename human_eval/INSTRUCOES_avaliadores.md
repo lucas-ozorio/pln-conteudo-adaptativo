@@ -8,5 +8,6 @@ Para cada linha, leia pergunta, gabarito, resposta do aluno, texto de apoio e no
 - utilidade_pedagogica: ajudaria este aluno a corrigir o erro, sem entregar a resposta pronta;
 - adequacao_nivel: adequado ao 8º/9º ano.
 Em afirmacoes_incorretas, conte afirmações cientificamente erradas ou contrárias ao gabarito.
+Em nota_global_1a10, dê UMA nota holística de 1 a 10 ao conjunto (texto + questões) como material de estudo para ESTE aluno, ANTES de preencher as notas por dimensão.
 Não preferir texto só por ser mais longo. Não tente adivinhar qual sistema gerou o material.
 Cada avaliador preenche uma CÓPIA da planilha (nome: planilha_<avaliador>.csv). Sugestão: 2 ou 3 avaliadores sobre as mesmas linhas.

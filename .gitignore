@@ -12,3 +12,10 @@ human_eval/*.csv
 # chaves nunca vão para o repositório
 .env
 *.key
+
+# rodada de robustez: saidas de teste (mock)
+outputs_robust_mock/
+cache_robust_mock/
+results_robust_mock/
+RESULTADOS_ROBUSTEZ_MOCK.md
+logs_robust_*.txt

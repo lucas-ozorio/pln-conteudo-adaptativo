@@ -1,0 +1,25 @@
+contraste,dim,J1,J2,J1_ic_sem_zero,J2_ic_sem_zero,mesmo_sinal
+A1_pipeline − S_estatico,coerencia,0.10555555555555556,-0.2,True,True,False
+A1_pipeline − S_estatico,correcao_conceitual,0.044444444444444446,-0.4388888888888889,False,True,False
+A1_pipeline − S_estatico,fidelidade_gabarito,0.14444444444444443,-0.5444444444444444,False,True,False
+A1_pipeline − S_estatico,foco_na_lacuna,0.8,0.5833333333333334,True,True,True
+A1_pipeline − S_estatico,utilidade_pedagogica,0.5166666666666667,0.3111111111111111,True,True,True
+A1_pipeline − S_estatico,adequacao_nivel,0.11666666666666667,-0.13333333333333333,True,True,False
+A0_direto − S_estatico,coerencia,-0.022222222222222223,-0.35555555555555557,False,True,True
+A0_direto − S_estatico,correcao_conceitual,0.027777777777777776,-0.31666666666666665,False,True,False
+A0_direto − S_estatico,fidelidade_gabarito,0.12777777777777777,-0.29444444444444445,False,True,False
+A0_direto − S_estatico,foco_na_lacuna,0.7777777777777778,0.6833333333333333,True,True,True
+A0_direto − S_estatico,utilidade_pedagogica,0.39444444444444443,0.1388888888888889,True,False,True
+A0_direto − S_estatico,adequacao_nivel,0.016666666666666666,-0.2777777777777778,False,True,False
+A1_pipeline − A0_direto,coerencia,0.12777777777777777,0.15555555555555556,True,True,True
+A1_pipeline − A0_direto,correcao_conceitual,0.016666666666666666,-0.12222222222222222,False,False,False
+A1_pipeline − A0_direto,fidelidade_gabarito,0.016666666666666666,-0.25,False,True,False
+A1_pipeline − A0_direto,foco_na_lacuna,0.022222222222222223,-0.1,False,False,False
+A1_pipeline − A0_direto,utilidade_pedagogica,0.12222222222222222,0.17222222222222222,False,True,True
+A1_pipeline − A0_direto,adequacao_nivel,0.1,0.14444444444444443,True,False,True
+A2_pipeline_verif − A1_pipeline,coerencia,0.005555555555555556,-0.044444444444444446,False,False,False
+A2_pipeline_verif − A1_pipeline,correcao_conceitual,0.03333333333333333,0.06111111111111111,True,False,True
+A2_pipeline_verif − A1_pipeline,fidelidade_gabarito,0.05,0.05555555555555555,False,False,True
+A2_pipeline_verif − A1_pipeline,foco_na_lacuna,0.07777777777777778,-0.011111111111111112,False,False,False
+A2_pipeline_verif − A1_pipeline,utilidade_pedagogica,0.05,-0.07777777777777778,False,True,False
+A2_pipeline_verif − A1_pipeline,adequacao_nivel,0.0,0.03888888888888889,False,False,False

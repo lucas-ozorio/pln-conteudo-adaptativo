@@ -1,0 +1,212 @@
+{
+ "36": [
+  {
+   "enunciado": "Qual é a principal função da parede celular nas células vegetais?",
+   "resposta_esperada": "A parede celular garante maior resistência à célula vegetal, evitando a ruptura pela entrada de água."
+  },
+  {
+   "enunciado": "Como é o formato das células animais em comparação com as células vegetais?",
+   "resposta_esperada": "A célula animal possui formato irregular, enquanto a célula vegetal apresenta uma forma fixa."
+  },
+  {
+   "enunciado": "Qual é o componente principal que forma a parede celular das células vegetais?",
+   "resposta_esperada": "A parede celular é formada principalmente por celulose."
+  }
+ ],
+ "37": [
+  {
+   "enunciado": "Qual é a função da membrana plasmática na célula?",
+   "resposta_esperada": "A membrana plasmática regula a troca de substâncias entre a célula e o meio externo."
+  },
+  {
+   "enunciado": "O que é o citoplasma e qual é sua importância?",
+   "resposta_esperada": "O citoplasma é um material gelatinoso interno onde ocorrem transformações das substâncias que penetram na célula, como os nutrientes."
+  },
+  {
+   "enunciado": "Qual é a principal função do núcleo na célula?",
+   "resposta_esperada": "O núcleo coordena as funções da célula e está relacionado à multiplicação celular, contendo o DNA."
+  }
+ ],
+ "38": [
+  {
+   "enunciado": "Quais são as principais funções do tecido epitelial no corpo humano?",
+   "resposta_esperada": "O tecido epitelial é responsável pelo revestimento do corpo e órgãos internos, além de atuar na absorção, secreção e proteção."
+  },
+  {
+   "enunciado": "Como a falta de vascularização no tecido epitelial afeta sua função?",
+   "resposta_esperada": "A falta de vascularização no tecido epitelial significa que ele depende da difusão de nutrientes e oxigênio a partir dos tecidos adjacentes."
+  },
+  {
+   "enunciado": "O que caracteriza a capacidade de renovação celular do tecido epitelial?",
+   "resposta_esperada": "A capacidade de renovação celular do tecido epitelial é caracterizada pela rápida divisão e reposição das células, permitindo a manutenção e reparo do tecido."
+  }
+ ],
+ "39": [
+  {
+   "enunciado": "Qual é a importância do metabolismo celular para o crescimento e reprodução das células?",
+   "resposta_esperada": "O metabolismo celular é fundamental para o crescimento e reprodução das células, pois fornece a energia necessária para esses processos."
+  },
+  {
+   "enunciado": "Como o metabolismo celular está relacionado à síntese e degradação de nutrientes?",
+   "resposta_esperada": "O metabolismo celular envolve reações químicas que sintetizam e degradam nutrientes, essenciais para a manutenção da vida celular."
+  },
+  {
+   "enunciado": "O que acontece com as células se o metabolismo celular não funcionar corretamente?",
+   "resposta_esperada": "Se o metabolismo celular não funcionar corretamente, as células não conseguirão produzir a energia necessária, comprometendo suas funções vitais."
+  }
+ ],
+ "40": [
+  {
+   "enunciado": "Como o ambiente pode influenciar o fenótipo de um organismo?",
+   "resposta_esperada": "O ambiente pode alterar o fenótipo de um organismo por meio de fatores como temperatura, alimentação e hábitos, que afetam suas características físicas e comportamentais."
+  },
+  {
+   "enunciado": "Qual é a relação entre genótipo e hereditariedade?",
+   "resposta_esperada": "O genótipo é transmitido de geração para geração, definindo as características hereditárias que um indivíduo herda de seus ancestrais."
+  },
+  {
+   "enunciado": "De que forma o fenótipo pode variar entre indivíduos da mesma espécie?",
+   "resposta_esperada": "Indivíduos da mesma espécie podem apresentar fenótipos diferentes devido a variações ambientais ou a diferentes combinações genéticas, mesmo compartilhando o mesmo genótipo."
+  }
+ ],
+ "41": [
+  {
+   "enunciado": "Como os genes influenciam as características de um organismo?",
+   "resposta_esperada": "Os genes contêm informações que determinam as características físicas e comportamentais de um organismo, sendo transmitidos dos pais para os filhos."
+  },
+  {
+   "enunciado": "Qual é o papel dos genes na herança de características entre espécies?",
+   "resposta_esperada": "Os genes são responsáveis pela transmissão de características que definem a herança comum a uma determinada espécie."
+  },
+  {
+   "enunciado": "O que é a hereditariedade em termos de genética?",
+   "resposta_esperada": "A hereditariedade é o processo pelo qual características genéticas são transmitidas de uma geração para outra, de pais para filhos."
+  }
+ ],
+ "42": [
+  {
+   "enunciado": "Quais são as principais funções dos testículos no aparelho reprodutor masculino?",
+   "resposta_esperada": "Os testículos são responsáveis pela produção de espermatozoides e pela secreção do hormônio testosterona."
+  },
+  {
+   "enunciado": "Qual é o papel do epidídimo no processo de maturação dos espermatozoides?",
+   "resposta_esperada": "O epidídimo armazena os espermatozoides e permite que eles adquiram motilidade e o acrossomo, essenciais para a fecundação."
+  },
+  {
+   "enunciado": "Como a uretra contribui para a função reprodutiva e excretora no homem?",
+   "resposta_esperada": "A uretra transporta tanto a urina quanto o sêmen para fora do organismo, desempenhando um papel dual nas funções excretora e reprodutiva."
+  }
+ ],
+ "43": [
+  {
+   "enunciado": "Quais são os principais músculos envolvidos na inspiração e na expiração?",
+   "resposta_esperada": "Os principais músculos envolvidos na inspiração são o diafragma e os músculos intercostais, enquanto na expiração ocorre o relaxamento desses músculos."
+  },
+  {
+   "enunciado": "O que acontece com o volume da cavidade torácica durante a inspiração?",
+   "resposta_esperada": "Durante a inspiração, o volume da cavidade torácica aumenta devido à contração do diafragma e dos músculos intercostais."
+  },
+  {
+   "enunciado": "Qual é o efeito do relaxamento do diafragma na expiração?",
+   "resposta_esperada": "O relaxamento do diafragma na expiração diminui o volume da cavidade torácica, empurrando o ar para fora dos pulmões."
+  }
+ ],
+ "44": [
+  {
+   "enunciado": "Qual é a função do bulbo raquidiano em relação à respiração?",
+   "resposta_esperada": "O bulbo raquidiano controla involuntariamente a taxa de gás carbônico no sangue e regula a respiração."
+  },
+  {
+   "enunciado": "Por que a concentração de gás carbônico é importante para o controle da respiração?",
+   "resposta_esperada": "A concentração de gás carbônico é importante porque, ao aumentar, sinaliza ao sistema nervoso que é necessário reiniciar a respiração."
+  },
+  {
+   "enunciado": "Como o sistema nervoso reage ao excesso de gás carbônico no sangue?",
+   "resposta_esperada": "O sistema nervoso reconhece o excesso de gás carbônico e ativa mecanismos para forçar a respiração como uma forma de proteção."
+  }
+ ],
+ "45": [
+  {
+   "enunciado": "Qual é a principal função dos leucócitos no organismo humano?",
+   "resposta_esperada": "Os leucócitos são responsáveis pela defesa do organismo contra infecções e doenças."
+  },
+  {
+   "enunciado": "O que acontece com as hemácias durante o processo de maturação?",
+   "resposta_esperada": "Durante a maturação, as hemácias perdem o núcleo e, portanto, não possuem cromossomos."
+  },
+  {
+   "enunciado": "Por que os cromossomos são importantes para as células do corpo humano?",
+   "resposta_esperada": "Os cromossomos contêm o material genético que determina as características e funções das células."
+  }
+ ],
+ "46": [
+  {
+   "enunciado": "Qual é a função principal das artérias no sistema circulatório?",
+   "resposta_esperada": "As artérias têm como função principal levar o sangue, nutrientes e oxigênio do coração para os tecidos."
+  },
+  {
+   "enunciado": "Como as veias contribuem para a eliminação de toxinas do corpo?",
+   "resposta_esperada": "As veias são responsáveis por conduzir o sangue de volta ao coração e removem as toxinas dos tecidos para que elas sejam eliminadas."
+  },
+  {
+   "enunciado": "O que acontece com o sangue quando o coração bombeia?",
+   "resposta_esperada": "Quando o coração bombeia o sangue, ele o envia diretamente nas artérias com grande pressão para que as artérias conduzam o sangue na direção dos tecidos."
+  }
+ ],
+ "47": [
+  {
+   "enunciado": "Qual é a importância da bile produzida pelo fígado na digestão?",
+   "resposta_esperada": "A bile é importante na digestão porque ajuda na emulsificação das gorduras, facilitando sua absorção no intestino."
+  },
+  {
+   "enunciado": "Como o fígado contribui para o armazenamento de energia no corpo?",
+   "resposta_esperada": "O fígado armazena glicose na forma de glicogênio, que pode ser convertido em glicose quando o corpo necessita de energia."
+  },
+  {
+   "enunciado": "De que maneira o fígado transforma substâncias que passam por ele?",
+   "resposta_esperada": "O fígado atua como um laboratório, metabolizando e transformando substâncias, tornando-as adequadas para uso ou excreção pelo organismo."
+  }
+ ],
+ "48": [
+  {
+   "enunciado": "Qual é o principal objetivo da imunização através das vacinas?",
+   "resposta_esperada": "O principal objetivo da imunização através das vacinas é preparar o sistema imunológico para reconhecer e combater patógenos específicos."
+  },
+  {
+   "enunciado": "Como as vacinas contribuem para a proteção da saúde pública?",
+   "resposta_esperada": "As vacinas contribuem para a proteção da saúde pública ao criar imunidade em massa, reduzindo a propagação de doenças infecciosas."
+  },
+  {
+   "enunciado": "O que acontece com o sistema imunológico após a administração de uma vacina?",
+   "resposta_esperada": "Após a administração de uma vacina, o sistema imunológico responde produzindo anticorpos e células de memória que ajudam a proteger contra futuras infecções."
+  }
+ ],
+ "49": [
+  {
+   "enunciado": "Quais são os três grupos principais de alimentos e suas funções no organismo?",
+   "resposta_esperada": "Os três grupos principais de alimentos são os reguladores, energéticos e construtores, cada um com funções específicas para o nosso corpo."
+  },
+  {
+   "enunciado": "Como uma alimentação equilibrada pode impactar a saúde?",
+   "resposta_esperada": "Uma alimentação equilibrada com alimentos de diferentes funções proporciona saúde ao nosso corpo, ajudando na prevenção de doenças."
+  },
+  {
+   "enunciado": "Por que os alimentos energéticos são importantes para o corpo?",
+   "resposta_esperada": "Os alimentos energéticos são importantes porque fornecem a energia necessária para as atividades diárias e o funcionamento do organismo."
+  }
+ ],
+ "50": [
+  {
+   "enunciado": "Qual é a função principal da hemodiálise no tratamento de pacientes com problemas renais?",
+   "resposta_esperada": "A hemodiálise tem a função principal de remover toxinas e excesso de água do organismo, substituindo a função dos rins."
+  },
+  {
+   "enunciado": "Como a hemodiálise contribui para a saúde de uma pessoa com rins doentes?",
+   "resposta_esperada": "A hemodiálise contribui para a saúde ao limpar e filtrar o sangue, realizando o trabalho que os rins doentes não conseguem fazer."
+  },
+  {
+   "enunciado": "O que acontece com o sangue durante o processo de hemodiálise?",
+   "resposta_esperada": "Durante a hemodiálise, o sangue é filtrado e depurado, removendo substâncias indesejáveis que se acumulam devido à falha renal."
+  }
+ ]
+}

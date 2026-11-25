@@ -38,6 +38,7 @@ class LLM:
         self.temperature = m.get("temperature", 0.0)
         self.max_tokens = m.get("max_tokens", 1200)
         self.json_mode = p.get("json_mode", False)
+        self.extra_body = m.get("extra_body")  # ex.: {"reasoning": {"enabled": false}} (corta tokens de raciocínio)
         self.retries = cfg.get("runtime", {}).get("max_retries", 5)
         self.cache_path = ROOT / "cache" / f"{role}_{self.kind}.jsonl"
         self.usage_path = ROOT / "outputs" / "usage.jsonl"
@@ -93,6 +94,8 @@ class LLM:
         )
         if want_json and self.json_mode:
             kwargs["response_format"] = {"type": "json_object"}
+        if self.extra_body:
+            kwargs["extra_body"] = self.extra_body
         last = None
         for a in range(self.retries):
             try:
