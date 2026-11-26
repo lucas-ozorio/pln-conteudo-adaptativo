@@ -38,4 +38,20 @@ def mock_reply(task: str, user: str) -> str:
         return "Resposta simulada do aluno " + str(_h(user, 100))
     if task == "grade":
         return json.dumps({"nota": _h(user, 4)})
+    if task == "judge_blind":
+        r = lambda k: 1 + _h(user + k, 5)  # noqa: E731
+        return json.dumps({"justificativa": "j", "coerencia": r("a"), "correcao_conceitual": r("b"), "fidelidade_gabarito": r("c"),
+                           "completude": r("d"), "adequacao_nivel": r("e"), "qualidade_geral": r("f"), "afirmacoes_incorretas": _h(user, 2)})
+    if task == "judge_overrem":
+        r = lambda k: 1 + _h(user + k, 5)  # noqa: E731
+        return json.dumps({"justificativa": "j", "reconhece_acertos": r("a"), "sobre_remediacao": r("b"), "coerencia": r("c"),
+                           "correcao_conceitual": r("d"), "fidelidade_gabarito": r("e"), "utilidade_pedagogica": r("f")})
+    if task == "posttest":
+        return json.dumps({"questoes": [{"enunciado": f"Pergunta nova {i}?", "resposta_esperada": "r"} for i in range(3)]})
+    if task == "notes":
+        return "Anotacao simulada " + str(_h(user, 100))
+    if task == "answers":
+        return json.dumps({"respostas": ["resp a", "resp b", "resp c"]})
+    if task == "postgrade":
+        return json.dumps({"notas": [_h(user + "1", 4), _h(user + "2", 4), _h(user + "3", 4)]})
     raise ValueError(f"mock: tarefa desconhecida {task}")

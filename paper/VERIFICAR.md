@@ -35,3 +35,13 @@ Pontos que **vocês precisam confirmar**:
 - [ ] A auditoria do RQ4 tem **um** anotador (João). Se possível, um segundo anotador e um kappa.
 - [ ] Custo: cerca de US$ 3 no total (piloto 2,4 + calibração 0,32 + gerador fraco ~0,35, este estimado pelos tokens).
 - [ ] O experimento v2 (diagnóstico calibrado) **não** alimentou a geração; o artigo diz isso. Se rodarem a geração com v2, atualizem §5.2 a §5.6.
+
+## Rodada de robustez (2026-11-24/25, branch `robustez`)
+Escrita em `PRE_REGISTRO.md` (commit anterior às rodadas), resultados em `RESULTADOS_ROBUSTEZ.md` e `results_robust/`, texto na §5.7 e no apêndice. Preparação da banca em `DEFESA_BANCA.md`.
+- [ ] **Conclusões que mudaram** (conferir se o grupo concorda): "sem perda de qualidade" valia só para o juiz 1; o juiz 2 e o juiz cego ao aluno apontam custos (menos completude, mais sobre-remediação em respostas nota 3); o diagnóstico explícito não agrega valor (A1ø >= A1 em foco).
+- [ ] Os nomes "Claude Haiku 5.5" e "DeepSeek V4 Flash" vêm dos identificadores do OpenRouter e não foram confirmados em páginas dos fornecedores.
+- [ ] O pós-teste de transferência perdeu 62 de 1.080 casos (saída ilegível do aluno simulado, 16 só na questão 48); o `n` varia por contraste. Decidam se querem repetir com outro modelo de aluno.
+- [ ] Custo: ~US$ 9,5 no total (rodada de robustez ~US$ 6,3, acima dos US$ 5 planejados). A chave tem saldo de ~US$ 0,6.
+- [ ] **Avaliação humana (item 1) e 2º anotador da auditoria (item 9) continuam pendentes**: planilha em `human_eval/planilha_avaliadores.csv` (agora com `nota_global_1a10`), instruções em `human_eval/INSTRUCOES_*.md`. Após preencher: `scripts/07_judge_human_agreement.py` e `scripts/24_kappa_auditoria.py`, e reescrever §5.5/Limitations.
+- [ ] Item 7 (2º conjunto de dados): não encontrei conjunto público confirmado; a consistência por tópico é um substituto parcial.
+- [ ] O corpo do artigo foi condensado para caber em 8 páginas: parágrafos de detalhe do Herik e do João foram movidos, sem alteração, para o apêndice "Extended results".

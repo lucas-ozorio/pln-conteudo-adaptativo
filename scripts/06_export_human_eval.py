@@ -39,7 +39,7 @@ for iid in chosen:
         rows.append({"id_avaliacao": rid, "pergunta": it["question"], "gabarito": " | ".join(it["refs"]), "resposta_aluno": it["answer"],
                      "texto_apoio": m["texto"], "novas_questoes": format_questions(m["questoes"]) if m["questoes"] else "",
                      **{k: "" for k in ["coerencia", "correcao_conceitual", "fidelidade_gabarito", "foco_na_lacuna",
-                                        "utilidade_pedagogica", "adequacao_nivel", "afirmacoes_incorretas", "comentario"]}})
+                                        "utilidade_pedagogica", "adequacao_nivel", "afirmacoes_incorretas", "nota_global_1a10", "comentario"]}})
         key.append({"id_avaliacao": rid, "item_id": iid, "condicao": m["condition"], "nota_ouro": it["grade"]})
 rng.shuffle(rows)  # ordem aleatória, sem pistas de condição
 hd = ROOT / "human_eval"
@@ -56,6 +56,7 @@ pd.DataFrame(key).to_csv(hd / "CHAVE_condicoes_NAO_COMPARTILHAR.csv", index=Fals
     "- utilidade_pedagogica: ajudaria este aluno a corrigir o erro, sem entregar a resposta pronta;\n"
     "- adequacao_nivel: adequado ao 8º/9º ano.\n"
     "Em afirmacoes_incorretas, conte afirmações cientificamente erradas ou contrárias ao gabarito.\n"
+    "Em nota_global_1a10, dê UMA nota holística de 1 a 10 ao conjunto (texto + questões) como material de estudo para ESTE aluno, ANTES de preencher as notas por dimensão.\n"
     "Não preferir texto só por ser mais longo. Não tente adivinhar qual sistema gerou o material.\n"
     "Cada avaliador preenche uma CÓPIA da planilha (nome: planilha_<avaliador>.csv). Sugestão: 2 ou 3 avaliadores sobre as mesmas linhas.\n",
     encoding="utf-8")

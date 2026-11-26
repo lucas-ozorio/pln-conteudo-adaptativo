@@ -1,6 +1,6 @@
 # pln-conteudo-adaptativo
 
-**Resultados do piloto: [RESULTADOS.md](RESULTADOS.md)** (com o que os dados sustentam e o que não). **Rascunho do artigo (formato ACL): [paper/main.pdf](paper/main.pdf)**; antes de submeter, leia [paper/VERIFICAR.md](paper/VERIFICAR.md).
+**Resultados do piloto: [RESULTADOS.md](RESULTADOS.md)** (com o que os dados sustentam e o que não). **Robustez e defesa: [RESULTADOS_ROBUSTEZ.md](RESULTADOS_ROBUSTEZ.md), [PRE_REGISTRO.md](PRE_REGISTRO.md), [DEFESA_BANCA.md](DEFESA_BANCA.md).** **Rascunho do artigo (formato ACL): [paper/main.pdf](paper/main.pdf)**; antes de submeter, leia [paper/VERIFICAR.md](paper/VERIFICAR.md).
 
 Código dos experimentos iniciais do paper *Geração de Conteúdo Adaptativo com LLMs* (UFG, PLN). Desenho e justificativas: **[EXPERIMENTOS.md](EXPERIMENTOS.md)**.
 
@@ -55,3 +55,13 @@ outputs/ results/     saídas reais do piloto (diagnóstico, materiais, julgamen
 ## Compilar o artigo
 
 Envie `paper/` ao Overleaf ou compile com `tectonic -X compile main.tex`. Rode `python scripts/08_cluster_bootstrap.py && python scripts/09_make_paper_assets.py` para regenerar tabelas e figuras depois de novos resultados.
+
+## Rodada de robustez
+
+```bash
+python scripts/20_robust_run.py --stage gen_nodiag,gen_v2,gen_g3,gen_s1,gen_s2,gen_g2   # gera variantes (paga API; checa saldo)
+python scripts/20_robust_run.py --stage judge2_pilot,blind_pilot,judge_new,judge_g3,judge_seeds
+python scripts/22_transfer_posttest.py                                                  # aluno simulado, pós-teste de transferência
+python scripts/23_analyze_robust.py && python scripts/25_make_robust_tables.py           # análise e tabelas do artigo
+```
+Tudo é retomável e usa cache (`cache_robust/`); use `--mock --limit 6` para testar sem custo.
